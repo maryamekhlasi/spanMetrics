@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Description: Bridge between Python and Java - Python lib
+Bundle-DocURL: http://www.py4j.org
+Bundle-License: The New BSD License
+Bundle-ManifestVersion: 2
+Bundle-Name: py4j-python
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-SymbolicName: py4j-python
+Bundle-Version: 0.10.9.5-bnd-2odeag
+DynamicImport-Package: *
+Eclipse-BundleShape: dir
+Private-Package: LICENSE.txt,src.py4j,src.py4j.tests

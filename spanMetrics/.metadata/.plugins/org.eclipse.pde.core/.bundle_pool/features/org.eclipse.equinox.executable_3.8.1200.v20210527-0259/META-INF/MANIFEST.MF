@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+
+Name: bin/gtk/linux/x86_64/launcher
+SHA-256-Digest: 0gkW+h7aiybrUz2+cWSf0DsNuZm+NYOy8LpNVRQugy8=
+
+Name: bin/cocoa/macosx/aarch64/Eclipse.app/Contents/Info.plist
+SHA-256-Digest: MV+hh1wUS31GaGqZ3nBIbzFsi0KlBBOGTuL5S/8oCQo=
+
+Name: feature.xml
+SHA-256-Digest: KdHGQYkrQ1aveW7Clab2hr92CG7oN5fLlcx8552jH0I=
+
+Name: bin/cocoa/macosx/x86_64/Eclipse.app/Contents/MacOS/launcher
+SHA-256-Digest: qrlA3OLwXxDvUblNX9HI71hL0HcVoa+MH8JV9eQwLeM=
+
+Name: feature.properties
+SHA-256-Digest: TdfccVvEZFUW0KMKQyfAFhNP3TeOicOJkF9h7xTdCU0=
+
+Name: bin/gtk/linux/aarch64/launcher
+SHA-256-Digest: LDUQxr24Z8uYljW33QSM717+rPHIATBmu2w9ezfBkkY=
+
+Name: bin/win32/win32/x86_64/eclipsec.exe
+SHA-256-Digest: ngrPhKD+fL8LAC4qBYbmCOv2U6D/gNnnPNSg+i2/qYU=
+
+Name: bin/win32/win32/x86_64/launcher.exe
+SHA-256-Digest: 904rHgE/MF0f52Ml8dP1t3enIXpaB6Ks+4qEe5m5hIk=
+
+Name: bin/cocoa/macosx/x86_64/Eclipse.app/Contents/Info.plist
+SHA-256-Digest: LUOWniAI5MQVHnw6/xnTkbV8UEjDTkoTtFjW56K6J5U=
+
+Name: bin/gtk/linux/ppc64le/launcher
+SHA-256-Digest: 6ssBv25l2BEccPxNJSlhDaJedrv2rwegs0hLO5hTnuU=
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: build.properties
+SHA-256-Digest: dTDnZjF6adiIUVMEnUwfaLl4kowBI/2gZY+Z/fbLpmM=
+
+Name: gtk_root/about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: build.xml
+SHA-256-Digest: tnDaeENAtywHZAy7+Hajdg4/jG48pVW+z5y46fGWEqA=
+
+Name: bin/cocoa/macosx/aarch64/Eclipse.app/Contents/MacOS/launcher
+SHA-256-Digest: dEfRngJ1XVUn+XkiN2wwWnUEz2WNWOAOlvNf7gzh0gc=
+
+Name: license.html
+SHA-256-Digest: Dv5NbrV590iFepPFp4HDAA9w8zkHSynRW5FCE+FLHVM=
+

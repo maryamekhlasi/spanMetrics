@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ease.modules.feature"
+      label="EASE Modules (Incubation)"
+      version="0.8.0.I202105111149"
+      provider-name="Eclipse.org"
+      plugin="org.eclipse.ease">
+
+   <description url="https://www.eclipse.org/ease/">
+      EASE basic modules to interact with Eclipse Workbench
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2013 Christian Pontesegger and Arthur Daussy
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+Contributors:
+    Christian Pontesegger - initial API and implementation
+    Arthur Daussy - initial API and implementation
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ease.modules.platform"
+         download-size="183"
+         install-size="483"
+         version="0.8.0.I202104160741"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.modules.help"
+         download-size="215"
+         install-size="902"
+         version="0.8.0.I202105111149"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.modules.jvm"
+         download-size="12"
+         install-size="23"
+         version="0.8.0.I202103261222"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.ctf.core.tests" modificationStamp="4052" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core.tests/shared&lt;org.eclipse.tracecompass.ctf.core.tests.shared"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core.tests/src&lt;org.eclipse.tracecompass.ctf.core.tests.scope"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core.tests/perf&lt;org.eclipse.tracecompass.ctf.core.tests.perf.trace"/>
+    </package>
+</component>

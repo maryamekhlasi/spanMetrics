@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.analysis.timing.core" modificationStamp="4207" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{AbstractSegmentStoreAnalysisEventBasedModule.java[AbstractSegmentStoreAnalysisEventBasedModule" modificationStamp="8607" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{AbstractSegmentStoreAnalysisModule.java[AbstractSegmentStoreAnalysisModule" modificationStamp="8608" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{ISegmentStoreProvider.java[ISegmentStoreProvider" modificationStamp="8611" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{IAnalysisProgressListener.java[IAnalysisProgressListener" modificationStamp="8609" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{IGroupingSegmentAspect.java[IGroupingSegmentAspect" modificationStamp="8610" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{SegmentStoreAnalysisModule.java[SegmentStoreAnalysisModule" modificationStamp="8612" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{SegmentStoreStatisticsModel.java[SegmentStoreStatisticsModel" modificationStamp="8613" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore{package-info.java[package-info" modificationStamp="8614" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.statistics"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.statistics{IStatisticsAnalysis.java[IStatisticsAnalysis" modificationStamp="8617" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.statistics{IStatistics.java[IStatistics" modificationStamp="8616" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.statistics{Statistics.java[Statistics" modificationStamp="8618" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.statistics{package-info.java[package-info" modificationStamp="8619" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore.statistics"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore.statistics{AbstractSegmentStatisticsAnalysis.java[AbstractSegmentStatisticsAnalysis" modificationStamp="8620" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.analysis.timing.core.segmentstore.statistics{package-info.java[package-info" modificationStamp="8621" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.internal.analysis.timing.core"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.internal.analysis.timing.core{Activator.java[Activator" modificationStamp="8585" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.timing.core/src&lt;org.eclipse.tracecompass.internal.analysis.timing.core{package-info.java[package-info" modificationStamp="8587" restrictions="0" visibility="0"/>
+    </package>
+</component>

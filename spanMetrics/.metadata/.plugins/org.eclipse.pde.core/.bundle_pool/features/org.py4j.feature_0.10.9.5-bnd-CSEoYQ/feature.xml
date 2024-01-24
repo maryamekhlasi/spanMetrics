@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.py4j.feature" label="Py4J Library" version="0.10.9.5-bnd-CSEoYQ" provider-name="Py4J">
+  <plugin id="py4j-java" download-size="0" install-size="0" version="0.10.9.5-bnd-LoVopg" unpack="false" />
+  <plugin id="py4j-java.source" download-size="0" install-size="0" version="0.10.9.5-bnd-LoVopg" unpack="false" />
+  <plugin id="py4j-python" download-size="0" install-size="0" version="0.10.9.5-bnd-2odeag" unpack="false" />
+</feature>

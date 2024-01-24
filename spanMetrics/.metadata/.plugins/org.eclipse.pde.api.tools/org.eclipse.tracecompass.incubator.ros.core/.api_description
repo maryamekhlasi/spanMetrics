@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.ros.core" modificationStamp="2703" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros.core.trace.layout"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros.core.trace.layout{IRosEventLayout.java[IRosEventLayout" modificationStamp="12037" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros.core.trace.layout{Ros021EventLayout.java[Ros021EventLayout" modificationStamp="12038" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.analysis.counters.ui" modificationStamp="4569" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.counters.ui/src&lt;org.eclipse.tracecompass.analysis.counters.ui.views"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.ui/src&lt;org.eclipse.tracecompass.analysis.counters.ui.views{CounterChartViewer.java[CounterChartViewer" modificationStamp="8987" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.ui/src&lt;org.eclipse.tracecompass.analysis.counters.ui.views{CounterTreeViewer.java[CounterTreeViewer" modificationStamp="8988" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.ui/src&lt;org.eclipse.tracecompass.analysis.counters.ui.views{CounterView.java[CounterView" modificationStamp="8989" restrictions="0" visibility="0"/>
+    </package>
+</component>

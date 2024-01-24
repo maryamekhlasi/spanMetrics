@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+
+Name: META-INF/maven/org.eclipse.swtchart/org.eclipse.swtchart.feature
+ /pom.properties
+SHA-256-Digest: Ypt3OWNUsdajo1cTvL0n7VnP4qwvY0Dy4TLy8a7nieg=
+
+Name: META-INF/maven/org.eclipse.swtchart/org.eclipse.swtchart.feature
+ /pom.xml
+SHA-256-Digest: G/dmMTWMYycrEtwbtnJ1d75BfVXn2HWUWiQ1IZB5k9Y=
+
+Name: feature.xml
+SHA-256-Digest: b8UFuzVIC/hVwlA43TPVuRITJb1e91ITQL9JVnkQrws=
+
+Name: feature.properties
+SHA-256-Digest: mo91DMaQueHcgHu2/N+chrhQPK5S5gOAj85iwUGAIF8=
+

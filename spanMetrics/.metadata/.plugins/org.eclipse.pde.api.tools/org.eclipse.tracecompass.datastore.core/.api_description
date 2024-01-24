@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.datastore.core" modificationStamp="3958" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.encoding"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.encoding{HTVarInt.java[HTVarInt" modificationStamp="8267" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.internal.provisional.datastore.core.exceptions"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.internal.provisional.datastore.core.exceptions{RangeException.java[RangeException" modificationStamp="8241" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval{HTInterval.java[HTInterval" modificationStamp="8268" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval{IHTInterval.java[IHTInterval" modificationStamp="8269" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval{ISerializableObject.java[ISerializableObject" modificationStamp="8271" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval{IHTIntervalReader.java[IHTIntervalReader" modificationStamp="8270" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.interval{package-info.java[package-info" modificationStamp="8272" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.serialization"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.serialization{ISafeByteBufferReader.java[ISafeByteBufferReader" modificationStamp="8273" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.serialization{ISafeByteBufferWriter.java[ISafeByteBufferWriter" modificationStamp="8274" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.serialization{SafeByteBufferFactory.java[SafeByteBufferFactory" modificationStamp="8275" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.datastore.core/src&lt;org.eclipse.tracecompass.datastore.core.serialization{package-info.java[package-info" modificationStamp="8276" restrictions="0" visibility="0"/>
+    </package>
+</component>

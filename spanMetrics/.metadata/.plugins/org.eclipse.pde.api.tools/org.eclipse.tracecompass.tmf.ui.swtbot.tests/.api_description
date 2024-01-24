@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.ui.swtbot.tests" modificationStamp="643" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/src&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.tracetype.preferences"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/shared&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.shared"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/src&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/src&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.project"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/perf&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.perf.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.swtbot.tests/src&lt;org.eclipse.tracecompass.tmf.ui.swtbot.tests.views.xychart"/>
+    </package>
+</component>

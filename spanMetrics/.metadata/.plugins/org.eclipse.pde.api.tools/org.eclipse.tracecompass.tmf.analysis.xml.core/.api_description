@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.analysis.xml.core" modificationStamp="1200" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.analysis.xml.core/src&lt;org.eclipse.tracecompass.tmf.analysis.xml.core.module"/>
+        <type handle="=org.eclipse.tracecompass.tmf.analysis.xml.core/src&lt;org.eclipse.tracecompass.tmf.analysis.xml.core.module{ITmfXmlSchemaParser.java[ITmfXmlSchemaParser" modificationStamp="10646" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.analysis.xml.core/src&lt;org.eclipse.tracecompass.tmf.analysis.xml.core.module{TmfAnalysisModuleHelperXml.java[TmfAnalysisModuleHelperXml" modificationStamp="10647" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.analysis.xml.core/src&lt;org.eclipse.tracecompass.tmf.analysis.xml.core.module{TmfXmlStrings.java[TmfXmlStrings" modificationStamp="10648" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.analysis.xml.core/src&lt;org.eclipse.tracecompass.tmf.analysis.xml.core.module{TmfXmlUtils.java[TmfXmlUtils" modificationStamp="10649" restrictions="0" visibility="0"/>
+    </package>
+</component>

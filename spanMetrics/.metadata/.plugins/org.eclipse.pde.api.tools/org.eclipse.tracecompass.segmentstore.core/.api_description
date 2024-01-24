@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.segmentstore.core" modificationStamp="1320" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{BasicSegment.java[BasicSegment" modificationStamp="7423" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{ISegment.java[ISegment" modificationStamp="7425" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{IContentSegment.java[IContentSegment" modificationStamp="7424" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{ISegmentStore.java[ISegmentStore" modificationStamp="7426" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{SegmentComparators.java[SegmentComparators" modificationStamp="7427" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{SegmentStoreFactory.java[SegmentStoreFactory" modificationStamp="7428" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core{package-info.java[package-info" modificationStamp="7429" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core.segment.interfaces"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core.segment.interfaces{INamedSegment.java[INamedSegment" modificationStamp="10846" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core.segment.interfaces{SegmentAspects.java[SegmentAspects" modificationStamp="10847" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core.segment.interfaces{SegmentTypeComparators.java[SegmentTypeComparators" modificationStamp="10848" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.segmentstore.core/src&lt;org.eclipse.tracecompass.segmentstore.core.segment.interfaces{package-info.java[package-info" modificationStamp="10849" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,161 @@
+/*******************************************************************************
+ * Copyright (c) 2018 École Polytechnique de Montréal
+ *
+ * All rights reserved. This program and the accompanying materials are
+ * made available under the terms of the Eclipse Public License 2.0 which
+ * accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-2.0/
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *******************************************************************************/
+
+package org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.eclipse.jdt.annotation.Nullable;
+import org.eclipse.tracecompass.incubator.analysis.core.concepts.AggregatedCallSite;
+import org.eclipse.tracecompass.incubator.analysis.core.concepts.ICallStackSymbol;
+import org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.IDataPalette;
+import org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff.DifferentialWeightedTree;
+import org.eclipse.tracecompass.tmf.core.dataprovider.X11ColorUtils;
+import org.eclipse.tracecompass.tmf.core.model.OutputElementStyle;
+import org.eclipse.tracecompass.tmf.core.model.StyleProperties;
+import org.eclipse.tracecompass.tmf.core.presentation.IPaletteProvider;
+import org.eclipse.tracecompass.tmf.core.presentation.RGBAColor;
+import org.eclipse.tracecompass.tmf.core.presentation.RotatingPaletteProvider;
+
+import com.google.common.collect.ImmutableMap;
+
+/**
+ * Class to manage the colors of the differential flame graph views
+ *
+ * @author Fateme Faraji Daneshgar
+ */
+public final class DifferentialFlamePalette implements IDataPalette {
+
+    /**
+     * The state index for the multiple state
+     */
+    private static final double fMinThreshold = 10;
+    private static final int fMinHue = 75;
+    private static final int fMaxHue = 255;
+    private static final int NUM_COLORS = 360;
+
+    private static final Map<String, OutputElementStyle> STYLES;
+    // Map of styles with the parent
+    private static final Map<String, OutputElementStyle> STYLE_MAP = Collections.synchronizedMap(new HashMap<>());
+
+    static {
+        IPaletteProvider palette = new RotatingPaletteProvider.Builder().setNbColors(NUM_COLORS).build();
+        int i = 0;
+        ImmutableMap.Builder<String, OutputElementStyle> builder = new ImmutableMap.Builder<>();
+        for (RGBAColor color : palette.get()) {
+            builder.put(String.valueOf(i), new OutputElementStyle(null, ImmutableMap.of(
+                    StyleProperties.STYLE_NAME, String.valueOf(i),
+                    StyleProperties.BACKGROUND_COLOR, X11ColorUtils.toHexColor(color.getRed(), color.getGreen(), color.getBlue()),
+                    StyleProperties.OPACITY, (float) color.getAlpha() / 255)));
+            i++;
+        }
+
+        // Add WHITE color for Nan
+        builder.put("Nan", new OutputElementStyle(null, ImmutableMap.of(
+                StyleProperties.STYLE_NAME, "Nan",
+                StyleProperties.BACKGROUND_COLOR, X11ColorUtils.toHexColor(255, 255, 255),
+                StyleProperties.OPACITY, 1)));
+        // Add GRAY color for NoDifference
+        builder.put("NO-Difference", new OutputElementStyle(null, ImmutableMap.of(
+                StyleProperties.STYLE_NAME, "NO-Difference",
+                StyleProperties.BACKGROUND_COLOR, X11ColorUtils.toHexColor(128, 128, 128),
+                StyleProperties.OPACITY, 1)));
+        // Add Green tenses for Shorter duration
+        for (i = fMinHue; i <= fMaxHue; i++) {
+            builder.put("GREEN" + String.valueOf(i), new OutputElementStyle(null, ImmutableMap.of(
+                    StyleProperties.COLOR, X11ColorUtils.toHexColor("BLACK"),
+                    StyleProperties.STYLE_NAME, "GREEN" + String.valueOf(i),
+                    StyleProperties.BACKGROUND_COLOR, X11ColorUtils.toHexColor(0, i, 0),
+                    StyleProperties.OPACITY, 1)));
+        }
+        // Add Red tenses for Longer duration
+        for (i = fMinHue; i <= fMaxHue; i++) {
+            builder.put("RED" + String.valueOf(i), new OutputElementStyle(null, ImmutableMap.of(
+                    StyleProperties.COLOR, X11ColorUtils.toHexColor("BLACK"),
+                    StyleProperties.STYLE_NAME, "RED" + String.valueOf(i),
+                    StyleProperties.BACKGROUND_COLOR, X11ColorUtils.toHexColor(i, 0, 0),
+                    StyleProperties.OPACITY, 1)));
+        }
+        STYLES = builder.build();
+    }
+
+    private static @Nullable DifferentialFlamePalette fInstance = null;
+
+    private DifferentialFlamePalette() {
+        // Do nothing
+    }
+
+    /**
+     * Get the instance of this palette
+     *
+     * @return The instance of the palette
+     */
+    public static DifferentialFlamePalette getInstance() {
+        DifferentialFlamePalette instance = fInstance;
+        if (instance == null) {
+            instance = new DifferentialFlamePalette();
+            fInstance = instance;
+        }
+        return instance;
+    }
+
+    /**
+     * Get the map of styles for this palette
+     *
+     * @return The styles
+     */
+    @Override
+    public Map<String, OutputElementStyle> getStyles() {
+        return STYLES;
+    }
+
+    /**
+     * Get the style element for a given value
+     *
+     * @param callsite
+     *            The value to get an element for
+     * @return The output style
+     */
+
+    @Override
+    public OutputElementStyle getStyleFor(Object object) {
+        if (object instanceof DifferentialWeightedTree) {
+            DifferentialWeightedTree<?> tree = (DifferentialWeightedTree<?>) object;
+            double difference = tree.getDifference();
+            double step = fMaxHue - fMinHue;
+            if (Double.isNaN(difference)) {
+                ICallStackSymbol value = ((AggregatedCallSite) tree.getOriginalTree()).getObject();
+                int hashCode = value.hashCode();
+                return STYLE_MAP.computeIfAbsent(String.valueOf(Math.floorMod(hashCode, NUM_COLORS)), style -> new OutputElementStyle(style));
+            }
+            if (difference == 0) {
+                return STYLE_MAP.computeIfAbsent("NO-Difference", styleStr -> new OutputElementStyle(styleStr));
+            }
+            if (difference < 0) {
+                
+                return STYLE_MAP.computeIfAbsent("GREEN" + String.valueOf((int) (fMaxHue + Math.floor(difference * step))), styleStr -> new OutputElementStyle(styleStr , ImmutableMap.of(
+                        StyleProperties.COLOR, X11ColorUtils.toHexColor("BLACK"));
+
+            }
+
+            if (difference > fMinThreshold) {
+                difference = fMinThreshold;
+            }
+
+            return STYLE_MAP.computeIfAbsent("RED" + String.valueOf(fMaxHue - (int) (Math.floor((difference / fMinThreshold) * step))), styleStr -> new OutputElementStyle(styleStr));
+
+        }
+        return null;
+    }
+
+}

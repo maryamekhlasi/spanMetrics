@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.callstack.core" modificationStamp="3662" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.lttng2.ust"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.lttng2.ust{LttngUstCallStackAnalysis.java[LttngUstCallStackAnalysis" modificationStamp="8064" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.lttng2.ust{LttngUstCallStackAnalysisRequirement.java[LttngUstCallStackAnalysisRequirement" modificationStamp="8065" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.lttng2.ust{package-info.java[package-info" modificationStamp="8066" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{FlameChartArrowProvider.java[FlameChartArrowProvider" modificationStamp="12270" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{FlameChartDataProvider.java[FlameChartDataProvider" modificationStamp="12271" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{FlameChartDataProviderFactory.java[FlameChartDataProviderFactory" modificationStamp="12272" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{FlameChartEntryModel.java[FlameChartEntryModel" modificationStamp="12273" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{Messages.java[Messages" modificationStamp="12274" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.instrumented.provider{package-info.java[package-info" modificationStamp="12276" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.palette"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.palette{FlameDefaultPalette.java[FlameDefaultPalette" modificationStamp="8020" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.palette{FlameWithKernelPalette.java[FlameWithKernelPalette" modificationStamp="8021" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.internal.callstack.core.palette{package-info.java[package-info" modificationStamp="8022" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.flamechart"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.flamechart{CallStack.java[CallStack" modificationStamp="8045" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.flamechart{IEventCallStackProvider.java[IEventCallStackProvider" modificationStamp="8046" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.flamechart{Messages.java[Messages" modificationStamp="8047" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.flamechart{package-info.java[package-info" modificationStamp="8049" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented{CallStackDepth.java[CallStackDepth" modificationStamp="8050" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented{ICalledFunction.java[ICalledFunction" modificationStamp="8051" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented{IFlameChartProvider.java[IFlameChartProvider" modificationStamp="8052" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented{package-info.java[package-info" modificationStamp="8053" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{CallStackElement.java[CallStackElement" modificationStamp="8035" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{CallStackGroupDescriptor.java[CallStackGroupDescriptor" modificationStamp="8036" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{EdgeStateValue.java[EdgeStateValue" modificationStamp="8037" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{ICallStackElement.java[ICallStackElement" modificationStamp="8038" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{ICallStackGroupDescriptor.java[ICallStackGroupDescriptor" modificationStamp="8039" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.base{package-info.java[package-info" modificationStamp="8040" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.sampled.callgraph"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.sampled.callgraph{AggregatedStackTraces.java[AggregatedStackTraces" modificationStamp="8067" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.sampled.callgraph{ProfilingCallGraphAnalysisModule.java[ProfilingCallGraphAnalysisModule" modificationStamp="8068" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.sampled.callgraph{package-info.java[package-info" modificationStamp="8069" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem{CallStackHostUtils.java[CallStackHostUtils" modificationStamp="8059" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem{CallStackSeries.java[CallStackSeries" modificationStamp="8060" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem{CallStackStateProvider.java[CallStackStateProvider" modificationStamp="8061" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem{InstrumentedCallStackAnalysis.java[InstrumentedCallStackAnalysis" modificationStamp="8062" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.instrumented.statesystem{package-info.java[package-info" modificationStamp="8063" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.callgraph"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.callgraph{CallGraph.java[CallGraph" modificationStamp="8041" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.callgraph{ICallGraphProvider.java[ICallGraphProvider" modificationStamp="8042" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.callgraph{SymbolAspect.java[SymbolAspect" modificationStamp="8043" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.callgraph{package-info.java[package-info" modificationStamp="8044" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.symbol"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.symbol{CallStackSymbolFactory.java[CallStackSymbolFactory" modificationStamp="8057" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.callstack.core/src&lt;org.eclipse.tracecompass.incubator.callstack.core.symbol{package-info.java[package-info" modificationStamp="8058" restrictions="0" visibility="0"/>
+    </package>
+</component>

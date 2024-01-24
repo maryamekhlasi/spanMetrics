@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.lttng2.ust.core" modificationStamp="1613" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{BinaryCallsite.java[BinaryCallsite" modificationStamp="10996" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{FunctionLocation.java[FunctionLocation" modificationStamp="10997" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{Messages.java[Messages" modificationStamp="10998" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoAnalysisModule.java[UstDebugInfoAnalysisModule" modificationStamp="10999" restrictions="0" visibility="0">
+            <method name="getMatchingFile" restrictions="8" signature="(JJJ)Lorg/eclipse/tracecompass/lttng2/ust/core/analysis/debuginfo/UstDebugInfoLoadedBinaryFile;" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoBinaryAspect.java[UstDebugInfoBinaryAspect" modificationStamp="11000" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoBinaryFile.java[UstDebugInfoBinaryFile" modificationStamp="11001" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoFunctionAspect.java[UstDebugInfoFunctionAspect" modificationStamp="11002" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoLoadedBinaryFile.java[UstDebugInfoLoadedBinaryFile" modificationStamp="11003" restrictions="8" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{UstDebugInfoSourceAspect.java[UstDebugInfoSourceAspect" modificationStamp="11004" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.analysis.debuginfo{package-info.java[package-info" modificationStamp="11006" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace{LttngUstEvent.java[LttngUstEvent" modificationStamp="10987" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace{LttngUstEventFactory.java[LttngUstEventFactory" modificationStamp="10988" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace{LttngUstTrace.java[LttngUstTrace" modificationStamp="10989" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace{Messages.java[Messages" modificationStamp="10990" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace.layout"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace.layout{ILttngUstEventLayout.java[ILttngUstEventLayout" modificationStamp="10993" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.lttng2.ust.core/src&lt;org.eclipse.tracecompass.lttng2.ust.core.trace.layout{package-info.java[package-info" modificationStamp="10994" restrictions="0" visibility="0"/>
+    </package>
+</component>

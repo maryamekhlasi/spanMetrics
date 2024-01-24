@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.statesystem.core" modificationStamp="1284" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core{ITmfStateSystem.java[ITmfStateSystem" modificationStamp="7368" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core{ITmfStateSystemBuilder.java[ITmfStateSystemBuilder" modificationStamp="7369" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core{StateSystemBuilderUtils.java[StateSystemBuilderUtils" modificationStamp="7370" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core{StateSystemFactory.java[StateSystemFactory" modificationStamp="7371" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core{StateSystemUtils.java[StateSystemUtils" modificationStamp="7372" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.interval"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.interval{ITmfStateInterval.java[ITmfStateInterval" modificationStamp="7386" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.interval{TmfStateInterval.java[TmfStateInterval" modificationStamp="7387" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.exceptions"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.exceptions{AttributeNotFoundException.java[AttributeNotFoundException" modificationStamp="7382" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.exceptions{StateSystemDisposedException.java[StateSystemDisposedException" modificationStamp="7383" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.exceptions{StateValueTypeException.java[StateValueTypeException" modificationStamp="7384" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.exceptions{TimeRangeException.java[TimeRangeException" modificationStamp="7385" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.snapshot"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.snapshot{StateSnapshot.java[StateSnapshot" modificationStamp="7388" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{DoubleStateValue.java[DoubleStateValue" modificationStamp="7389" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{ITmfStateValue.java[ITmfStateValue" modificationStamp="7390" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{IntegerStateValue.java[IntegerStateValue" modificationStamp="7391" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{LongStateValue.java[LongStateValue" modificationStamp="7392" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{NullStateValue.java[NullStateValue" modificationStamp="7393" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{StringStateValue.java[StringStateValue" modificationStamp="7394" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{TmfStateValue.java[TmfStateValue" modificationStamp="7395" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.statevalue{package-info.java[package-info" modificationStamp="7396" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.backend"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.backend{ICustomStateHistoryBackend.java[ICustomStateHistoryBackend" modificationStamp="7378" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.backend{IStateHistoryBackend.java[IStateHistoryBackend" modificationStamp="7380" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.backend{IPartialStateHistoryBackend.java[IPartialStateHistoryBackend" modificationStamp="7379" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.statesystem.core/src&lt;org.eclipse.tracecompass.statesystem.core.backend{StateHistoryBackendFactory.java[StateHistoryBackendFactory" modificationStamp="7381" restrictions="0" visibility="0"/>
+    </package>
+</component>

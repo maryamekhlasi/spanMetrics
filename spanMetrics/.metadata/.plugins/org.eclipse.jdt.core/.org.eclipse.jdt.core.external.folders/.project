@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link1</name>
+			<type>2</type>
+			<location>/home/maryam/Poly/Dorsal/git/spanMetrics/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.ease.lang.python.py4j_0.9.0.I202206141122</location>
+		</link>
+		<link>
+			<name>.link2</name>
+			<type>2</type>
+			<location>/home/maryam/Poly/Dorsal/git/spanMetrics/.metadata/.plugins/org.eclipse.pde.core/.bundle_pool/plugins/org.eclipse.ui.themes_1.2.2200.v20230220-0932</location>
+		</link>
+	</linkedResources>
+</projectDescription>

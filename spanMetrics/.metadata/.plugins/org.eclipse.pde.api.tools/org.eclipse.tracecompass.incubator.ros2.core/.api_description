@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.ros2.core" modificationStamp="2623" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.objects"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.objects{Ros2ObjectsStateProvider.java[Ros2ObjectsStateProvider" modificationStamp="11924" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.objects{Ros2ObjectsAnalysis.java[Ros2ObjectsAnalysis" modificationStamp="11923" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.objects{Ros2ObjectsUtil.java[Ros2ObjectsUtil" modificationStamp="11925" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model{Ros2SerializationUtil.java[Ros2SerializationUtil" modificationStamp="11912" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model{HostProcessPointer.java[HostProcessPointer" modificationStamp="11910" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model{HostThread.java[HostThread" modificationStamp="11911" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model{HostProcess.java[HostProcess" modificationStamp="11909" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model{HostInfo.java[HostInfo" modificationStamp="11908" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis{AbstractRos2StateProvider.java[AbstractRos2StateProvider" modificationStamp="11902" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis{AbstractRos2StateSystemAnalysis.java[AbstractRos2StateSystemAnalysis" modificationStamp="11903" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis{Ros2ObjectTimeGraphEntryModel.java[Ros2ObjectTimeGraphEntryModel" modificationStamp="11904" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis{Ros2ObjectTimeGraphEntryModelType.java[Ros2ObjectTimeGraphEntryModelType" modificationStamp="11905" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.trace.layout"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.trace.layout{IRos2EventLayout.java[IRos2EventLayout" modificationStamp="11937" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.trace.layout{Ros2RollingEventLayout.java[Ros2RollingEventLayout" modificationStamp="11938" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2PublisherObject.java[Ros2PublisherObject" modificationStamp="11934" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2CallbackObject.java[Ros2CallbackObject" modificationStamp="11928" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2NodeObject.java[Ros2NodeObject" modificationStamp="11930" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2TimerObject.java[Ros2TimerObject" modificationStamp="11936" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2ObjectHandle.java[Ros2ObjectHandle" modificationStamp="11932" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2PubSubObject.java[Ros2PubSubObject" modificationStamp="11933" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Gid.java[Gid" modificationStamp="11927" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2CallbackType.java[Ros2CallbackType" modificationStamp="11929" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2Object.java[Ros2Object" modificationStamp="11931" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.objects{Ros2SubscriptionObject.java[Ros2SubscriptionObject" modificationStamp="11935" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.executor"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.model.executor{Ros2ExecutorStateInstance.java[Ros2ExecutorStateInstance" modificationStamp="11926" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor{Ros2ExecutorDataProviderFactory.java[Ros2ExecutorDataProviderFactory" modificationStamp="11920" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor{Ros2ExecutorTimeGraphState.java[Ros2ExecutorTimeGraphState" modificationStamp="11922" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor{Ros2ExecutorAnalysis.java[Ros2ExecutorAnalysis" modificationStamp="11918" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor{Ros2ExecutorStateProvider.java[Ros2ExecutorStateProvider" modificationStamp="11921" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.ros2.core/src&lt;org.eclipse.tracecompass.incubator.internal.ros2.core.analysis.executor{Ros2ExecutorDataProvider.java[Ros2ExecutorDataProvider" modificationStamp="11919" restrictions="0" visibility="0"/>
+    </package>
+</component>

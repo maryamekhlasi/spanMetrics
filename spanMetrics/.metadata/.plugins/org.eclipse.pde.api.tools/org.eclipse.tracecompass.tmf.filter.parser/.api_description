@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.filter.parser" modificationStamp="859" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.filter.parser/src&lt;org.eclipse.tracecompass.tmf.filter.parser.error"/>
+        <type handle="=org.eclipse.tracecompass.tmf.filter.parser/src&lt;org.eclipse.tracecompass.tmf.filter.parser.error{IErrorListener.java[IErrorListener" modificationStamp="9848" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.filter.parser/src&lt;main.antlr3.org.eclipse.tracecompass.tmf.filter.parser"/>
+    </package>
+</component>

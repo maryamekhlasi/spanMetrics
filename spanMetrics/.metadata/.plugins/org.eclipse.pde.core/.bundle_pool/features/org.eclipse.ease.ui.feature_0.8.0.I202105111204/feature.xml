@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ease.ui.feature"
+      label="EASE UI Components (Incubation)"
+      version="0.8.0.I202105111204"
+      provider-name="Eclipse.org"
+      plugin="org.eclipse.ease">
+
+   <description>
+      All the EASE component for User Interface integration
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2013 Christian Pontesegger and Arthur Daussy
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+Contributors:
+    Christian Pontesegger - initial API and implementation
+    Arthur Daussy - initial API and implementation
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ease.ui"
+         download-size="613"
+         install-size="1829"
+         version="0.8.0.I202104091425"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.help"
+         download-size="2191"
+         install-size="12406"
+         version="0.8.0.I202105111204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.ui.scripts"
+         download-size="313"
+         install-size="629"
+         version="0.8.0.I202104061519"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.ui.completions.java"
+         download-size="44"
+         install-size="99"
+         version="0.8.0.I202103261223"
+         fragment="true"/>
+
+</feature>

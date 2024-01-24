@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.ctf.core" modificationStamp="4033" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core{CTFException.java[CTFException" modificationStamp="8353" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core{CTFStrings.java[CTFStrings" modificationStamp="8354" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.metadata"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.metadata{DeclarationScope.java[DeclarationScope" modificationStamp="8379" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event{CTFCallsite.java[CTFCallsite" modificationStamp="8357" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event{CTFClock.java[CTFClock" modificationStamp="8358" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event{IEventDeclaration.java[IEventDeclaration" modificationStamp="8359" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event{IEventDefinition.java[IEventDefinition" modificationStamp="8360" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFIOException.java[CTFIOException" modificationStamp="8365" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFResponse.java[CTFResponse" modificationStamp="8366" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFStreamInput.java[CTFStreamInput" modificationStamp="8367" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFStreamInputReader.java[CTFStreamInputReader" modificationStamp="8368" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFStreamOutputWriter.java[CTFStreamOutputWriter" modificationStamp="8369" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFStreamPacketOutputWriter.java[CTFStreamPacketOutputWriter" modificationStamp="8370" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFTrace.java[CTFTrace" modificationStamp="8371" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFTraceReader.java[CTFTraceReader" modificationStamp="8372" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{CTFTraceWriter.java[CTFTraceWriter" modificationStamp="8373" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{ICTFPacketDescriptor.java[ICTFPacketDescriptor" modificationStamp="8374" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{ICTFStream.java[ICTFStream" modificationStamp="8375" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{IPacketReader.java[IPacketReader" modificationStamp="8376" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.trace{Metadata.java[Metadata" modificationStamp="8377" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{EventHeaderScope.java[EventHeaderScope" modificationStamp="8380" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{LexicalScope.java[LexicalScope" modificationStamp="8385" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{ILexicalScope.java[ILexicalScope" modificationStamp="8384" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{EventHeaderVScope.java[EventHeaderVScope" modificationStamp="8381" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{FieldsScope.java[FieldsScope" modificationStamp="8382" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{IDefinitionScope.java[IDefinitionScope" modificationStamp="8383" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{PacketHeaderScope.java[PacketHeaderScope" modificationStamp="8386" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.scope{RootScope.java[RootScope" modificationStamp="8387" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{AbstractArrayDefinition.java[AbstractArrayDefinition" modificationStamp="8388" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{Definition.java[Definition" modificationStamp="8391" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{IDefinition.java[IDefinition" modificationStamp="8399" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{CompoundDeclaration.java[CompoundDeclaration" modificationStamp="8389" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{Declaration.java[Declaration" modificationStamp="8390" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{IDeclaration.java[IDeclaration" modificationStamp="8398" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{Encoding.java[Encoding" modificationStamp="8392" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{EnumDeclaration.java[EnumDeclaration" modificationStamp="8393" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{ISimpleDatatypeDeclaration.java[ISimpleDatatypeDeclaration" modificationStamp="8401" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{EnumDefinition.java[EnumDefinition" modificationStamp="8394" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{SimpleDatatypeDefinition.java[SimpleDatatypeDefinition" modificationStamp="8405" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{FloatDeclaration.java[FloatDeclaration" modificationStamp="8395" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{FloatDefinition.java[FloatDefinition" modificationStamp="8396" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{ICompositeDefinition.java[ICompositeDefinition" modificationStamp="8397" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{IEventHeaderDeclaration.java[IEventHeaderDeclaration" modificationStamp="8400" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{IntegerDeclaration.java[IntegerDeclaration" modificationStamp="8402" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{IntegerDefinition.java[IntegerDefinition" modificationStamp="8403" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{ScopedDefinition.java[ScopedDefinition" modificationStamp="8404" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{StringDeclaration.java[StringDeclaration" modificationStamp="8406" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{StringDefinition.java[StringDefinition" modificationStamp="8407" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{StructDeclaration.java[StructDeclaration" modificationStamp="8408" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{StructDefinition.java[StructDefinition" modificationStamp="8409" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{VariantDeclaration.java[VariantDeclaration" modificationStamp="8410" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.types{VariantDefinition.java[VariantDefinition" modificationStamp="8411" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.io"/>
+        <type handle="=org.eclipse.tracecompass.ctf.core/src&lt;org.eclipse.tracecompass.ctf.core.event.io{BitBuffer.java[BitBuffer" modificationStamp="8378" restrictions="0" visibility="0"/>
+    </package>
+</component>

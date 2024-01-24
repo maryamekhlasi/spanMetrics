@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core" modificationStamp="559210" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{Activator.java[Activator" modificationStamp="559263" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{DifferentialCallGraphAnalysis.java[DifferentialCallGraphAnalysis" modificationStamp="559312" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{DifferentialCallGraphProvider.java[DifferentialCallGraphProvider" modificationStamp="559265" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{DifferentialFlamePalette.java[DifferentialFlamePalette" modificationStamp="559267" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{ExecutionComparisonSegmentStoreAnalysis.java[ExecutionComparisonSegmentStoreAnalysis" modificationStamp="559575" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{ExecutionMetrics.java[ExecutionMetrics" modificationStamp="559268" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{Messages.java[Messages" modificationStamp="559269" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{TmfMultiComparisonSignal.java[TmfMultiComparisonSignal" modificationStamp="559270" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core/src&lt;org.eclipse.tracecompass.incubator.concurrentexecutioncomparison.core{package-info.java[package-info" modificationStamp="559272" restrictions="0" visibility="0"/>
+    </package>
+</component>

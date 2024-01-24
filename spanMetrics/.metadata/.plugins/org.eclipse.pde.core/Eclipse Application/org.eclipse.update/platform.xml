@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1706113670423" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_2.3.1300.v20230302-0300/" version="2.3.1300.v20230302-0300">
+</feature>
+<feature id="org.eclipse.tracecompass.tmf.cli" url="features/org.eclipse.tracecompass.tmf.cli_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.swtbot.forms" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot.forms_3.1.0.202106041005/" version="3.1.0.202106041005">
+</feature>
+<feature id="org.eclipse.tracecompass.lttng2.kernel" url="features/org.eclipse.tracecompass.lttng2.kernel_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.tracecompass.tmf.ctf" url="features/org.eclipse.tracecompass.tmf.ctf_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.tracecompass.rcp" plugin-identifier="org.eclipse.tracecompass.rcp.branding" url="features/org.eclipse.tracecompass.rcp_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.lsp4j.sdk" url="features/org.eclipse.lsp4j.sdk_0.10.0.v20201105-1605/" version="0.10.0.v20201105-1605">
+</feature>
+<feature id="org.eclipse.swtbot" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot_3.1.0.202106041005/" version="3.1.0.202106041005">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.6.1700.v20230120-0604/" version="1.6.1700.v20230120-0604">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature" url="features/org.eclipse.ecf.core.ssl.feature_1.1.501.v20210409-2301/" version="1.1.501.v20210409-2301">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/" version="1.1.401.v20210409-2301">
+</feature>
+<feature id="org.eclipse.tracecompass.jsontrace" url="features/org.eclipse.tracecompass.jsontrace_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.nebula.widgets.opal.commons.feature" url="features/org.eclipse.nebula.widgets.opal.commons.feature_1.0.0.202106201019/" version="1.0.0.202106201019">
+</feature>
+<feature id="org.eclipse.nebula.widgets.opal.duallist.feature" url="features/org.eclipse.nebula.widgets.opal.duallist.feature_1.0.0.202106201019/" version="1.0.0.202106201019">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.4.1900.v20230120-0604/" version="2.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.swtbot.eclipse" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot.eclipse_3.1.0.202106041005/" version="3.1.0.202106041005">
+</feature>
+<feature id="org.eclipse.ease.lang.python.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.lang.python.feature_0.9.0.I202204261218/" version="0.9.0.I202204261218">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.ssl.feature.source" url="features/org.eclipse.ecf.filetransfer.ssl.feature.source_1.1.401.v20210409-2301/" version="1.1.401.v20210409-2301">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.27.0.v20230302-0300/" version="4.27.0.v20230302-0300">
+</feature>
+<feature id="org.eclipse.equinox.p2.discovery.feature" url="features/org.eclipse.equinox.p2.discovery.feature_1.2.1200.v20221111-1340/" version="1.2.1200.v20221111-1340">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature" url="features/org.eclipse.equinox.p2.rcp.feature_1.4.1900.v20230120-0604/" version="1.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature" url="features/org.eclipse.ecf.filetransfer.feature_3.14.1800.v20220215-0126/" version="3.14.1800.v20220215-0126">
+</feature>
+<feature id="org.eclipse.tracecompass.lttng2.control" url="features/org.eclipse.tracecompass.lttng2.control_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.py4j.feature" url="features/org.py4j.feature_0.10.9.5-bnd-CSEoYQ/" version="0.10.9.5-bnd-CSEoYQ">
+</feature>
+<feature id="org.eclipse.swtbot.generator.feature" plugin-identifier="org.eclipse.swtbot.eclipse.ui" url="features/org.eclipse.swtbot.generator.feature_3.1.0.202106041005/" version="3.1.0.202106041005">
+</feature>
+<feature id="org.eclipse.equinox.server.p2.source" url="features/org.eclipse.equinox.server.p2.source_1.12.800.v20230120-0604/" version="1.12.800.v20230120-0604">
+</feature>
+<feature id="org.eclipse.equinox.p2.rcp.feature.source" url="features/org.eclipse.equinox.p2.rcp.feature.source_1.4.1900.v20230120-0604/" version="1.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.equinox.server.p2" url="features/org.eclipse.equinox.server.p2_1.12.800.v20230120-0604/" version="1.12.800.v20230120-0604">
+</feature>
+<feature id="org.eclipse.equinox.p2.discovery.feature.source" url="features/org.eclipse.equinox.p2.discovery.feature.source_1.2.1200.v20221111-1340/" version="1.2.1200.v20221111-1340">
+</feature>
+<feature id="org.eclipse.license" url="features/org.eclipse.license_2.0.2.v20181016-2210/" version="2.0.2.v20181016-2210">
+</feature>
+<feature id="org.eclipse.tracecompass.ctf" url="features/org.eclipse.tracecompass.ctf_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.ease.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.feature_0.9.0.I202206140954/" version="0.9.0.I202206140954">
+</feature>
+<feature id="org.eclipse.equinox.p2.core.feature.source" url="features/org.eclipse.equinox.p2.core.feature.source_1.6.1700.v20230120-0604/" version="1.6.1700.v20230120-0604">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" url="features/org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.701.v20221112-0806/" version="1.1.701.v20221112-0806">
+</feature>
+<feature id="org.eclipse.cdt.gnu.dsf" plugin-identifier="org.eclipse.cdt.dsf.gdb.ui" url="features/org.eclipse.cdt.gnu.dsf_11.1.0.202212091724/" version="11.1.0.202212091724">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.29.0.v20230223-0922/" version="2.29.0.v20230223-0922">
+</feature>
+<feature id="org.eclipse.nebula.widgets.opal.notifier.feature" url="features/org.eclipse.nebula.widgets.opal.notifier.feature_1.0.0.202106201019/" version="1.0.0.202106201019">
+</feature>
+<feature id="org.eclipse.ecf.core.ssl.feature.source" url="features/org.eclipse.ecf.core.ssl.feature.source_1.1.501.v20210409-2301/" version="1.1.501.v20210409-2301">
+</feature>
+<feature id="org.eclipse.tracecompass.tmf.remote" url="features/org.eclipse.tracecompass.tmf.remote_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.equinox.executable" url="features/org.eclipse.equinox.executable_3.8.2000.v20221201-0912/" version="3.8.2000.v20221201-0912">
+</feature>
+<feature id="org.eclipse.ecf.core.feature.source" url="features/org.eclipse.ecf.core.feature.source_1.5.702.v20210409-2301/" version="1.5.702.v20210409-2301">
+</feature>
+<feature id="org.eclipse.tracecompass.testing" url="features/org.eclipse.tracecompass.testing_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.4.1900.v20230120-0604/" version="2.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.31.0.v20230226-0921/" version="2.31.0.v20230226-0921">
+</feature>
+<feature id="org.eclipse.ease.lang.javascript.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.lang.javascript.feature_0.9.0.I202204261218/" version="0.9.0.I202204261218">
+</feature>
+<feature id="org.eclipse.ease.lang.python.py4j.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.lang.python.py4j.feature_0.9.0.I202206141122/" version="0.9.0.I202206141122">
+</feature>
+<feature id="org.eclipse.tracecompass.tmf.pcap" url="features/org.eclipse.tracecompass.tmf.pcap_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1900.v20230120-0604/" version="1.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.equinox.p2.extras.feature.source" url="features/org.eclipse.equinox.p2.extras.feature.source_1.4.1900.v20230120-0604/" version="1.4.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.swtchart.feature.source" url="features/org.eclipse.swtchart.feature.source_0.12.0.202003130409/" version="0.12.0.202003130409">
+</feature>
+<feature id="org.eclipse.tracecompass.lttng2.ust" url="features/org.eclipse.tracecompass.lttng2.ust_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.ease.ui.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.ui.feature_0.9.0.I202207260937/" version="0.9.0.I202207260937">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.feature.source" url="features/org.eclipse.ecf.filetransfer.feature.source_3.14.1703.v20210409-2301/" version="3.14.1703.v20210409-2301">
+</feature>
+<feature id="org.eclipse.ecf.core.feature" url="features/org.eclipse.ecf.core.feature_1.6.1.v20211005-1944/" version="1.6.1.v20211005-1944">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature_1.0.703.v20210512-0614/" version="1.0.703.v20210512-0614">
+</feature>
+<feature id="org.eclipse.ease.engine.jython.feature" url="features/org.eclipse.ease.engine.jython.feature_2.7.0.I202104151016/" version="2.7.0.I202104151016">
+</feature>
+<feature id="org.eclipse.swtchart.feature" url="features/org.eclipse.swtchart.feature_0.12.0.202003130409/" version="0.12.0.202003130409">
+</feature>
+<feature id="org.eclipse.equinox.p2.sdk" url="features/org.eclipse.equinox.p2.sdk_3.11.1900.v20230120-0604/" version="3.11.1900.v20230120-0604">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.27.0.v20230302-0300/" version="4.27.0.v20230302-0300">
+</feature>
+<feature id="org.eclipse.ease.modules.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.modules.feature_0.9.0.I202207260950/" version="0.9.0.I202207260950">
+</feature>
+<feature id="org.eclipse.test" url="features/org.eclipse.test_3.8.400.v20230219-1319/" version="3.8.400.v20230219-1319">
+</feature>
+<feature id="org.eclipse.tracecompass.tmf" url="features/org.eclipse.tracecompass.tmf_8.3.0.202303230322/" version="8.3.0.202303230322">
+</feature>
+<feature id="org.eclipse.ease.python.jython.feature" plugin-identifier="org.eclipse.ease" url="features/org.eclipse.ease.python.jython.feature_0.9.0.I202206141122/" version="0.9.0.I202206141122">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_4.27.0.v20230220-1431/" version="4.27.0.v20230220-1431">
+</feature>
+<feature id="org.eclipse.ecf.filetransfer.httpclient45.feature.source" url="features/org.eclipse.ecf.filetransfer.httpclient45.feature.source_1.0.703.v20210512-0614/" version="1.0.703.v20210512-0614">
+</feature>
+</site>
+</config>

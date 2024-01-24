@@ -1,0 +1,68 @@
+Signature-Version: 1.0
+Created-By: 11.0.10 (AdoptOpenJDK)
+SHA-256-Digest-Manifest: kE+D0lW6hs0mdwOLFOSosyp6KccKAwWAn3Vqitl67jo=
+SHA-256-Digest-Manifest-Main-Attributes: /99HkuY6Trkubh6oj35zE1Hd29HoKt5
+ Tjcxfp8WXc1Q=
+
+Name: org/eclipse/test/CoreTestApplication.class
+SHA-256-Digest: eennHNcqZ3l2yEk7Y/GT2aoWlQo10D4QtCEm0PSt03s=
+
+Name: org/eclipse/test/ClassLoaderTools.class
+SHA-256-Digest: XJpxWFCQNRpB9PodeUp0i5BfPY4OtmRjOBrXEeTMQmA=
+
+Name: about.html
+SHA-256-Digest: ncO+WCNUIJ0JLCOl/ot53yopwTqvvtVu0qSgblesdYo=
+
+Name: plugin.xml
+SHA-256-Digest: WxAxYVtfHF36siJS6V1ZmCfYHo3znf5G1ytzERRzYOU=
+
+Name: org/eclipse/test/AbstractJUnitResultFormatter$SysOutErrContentStor
+ e.class
+SHA-256-Digest: 4Cm1WmPvgG4mdk8kZEsw6U/fSyO4NSC+y3u5sz8/uzc=
+
+Name: org/eclipse/test/AbstractJUnitResultFormatter.class
+SHA-256-Digest: jSvN0iLasu/1yYddQObMajRL1mE4L/WqOXupbx9L4Zk=
+
+Name: org/eclipse/test/LegacyXmlResultFormatter$XMLReportWriter.class
+SHA-256-Digest: 7XwrCVcXUoy6De5XZCR+R0uQ2vbOAtEAV45usaNWAy0=
+
+Name: org/eclipse/test/AbstractJUnitResultFormatter$SysOutErrContentStor
+ e$1.class
+SHA-256-Digest: lpDPXNO3cMGnycICtPDkx5h8MR2d0jDMBNbmvbe4/Tw=
+
+Name: org/eclipse/test/UITestApplication.class
+SHA-256-Digest: 3F/3ZT3SvU9xDv/VFfVjXVLo1sF9cQIKVhOUkM8oqF8=
+
+Name: org/eclipse/test/EclipseTestRunner.class
+SHA-256-Digest: KhXYfBKrnMPeswZlldrvbSkdQmRCDtmbDnJ4Q1/RQUw=
+
+Name: org/eclipse/test/ClassLoaderTools$MultiBundleClassLoader.class
+SHA-256-Digest: Lvas1RgbpCyI6AXxXAh9p3DHN9Fa5tMXS/PrBgLqh8A=
+
+Name: org/eclipse/test/EclipseTestRunner$ThreadDump.class
+SHA-256-Digest: K9/LYQ0wAQ4nJmG0H7BTWXPzMx57XSryDJ2NA0gBIj4=
+
+Name: org/eclipse/test/AwtScreenshot.class
+SHA-256-Digest: b+e7T+rAhnqQjuzVOtVY60iQSG3MnyPVDLqdlXSlduk=
+
+Name: plugin.properties
+SHA-256-Digest: AKGl1cqBkvYULQOWd3eNzMmPH5CfSpWODyloS/cWmOs=
+
+Name: org/eclipse/test/LegacyXmlResultFormatter.class
+SHA-256-Digest: FivEauQSESV/mKzqyuEaODe3KGNASD9V6LbP5hWIRYc=
+
+Name: org/eclipse/test/ClassLoaderTools$TestBundleClassLoader.class
+SHA-256-Digest: +jDJQIgUW9w/TTdby/Oky4PYKJsHouVBtupn1n7omyw=
+
+Name: org/eclipse/test/EclipseTestRunner$ExecutionContext.class
+SHA-256-Digest: DHiXSL6d6bEykAP2hNviAfd5KxCQrHHcw1Bvmemk7L8=
+
+Name: org/eclipse/test/EclipseTestRunner$ExecutionListener.class
+SHA-256-Digest: cipbQITAyUC1ckzELvzX2hN5EwWgCG7iQT4A4LTd2os=
+
+Name: org/eclipse/test/RegressionTest.class
+SHA-256-Digest: 2YLB8DiOF3hCVCtT3QkDFbW7PgQ/dV0A5IUtYqR5OW8=
+
+Name: org/eclipse/test/LegacyXmlResultFormatter$Stats.class
+SHA-256-Digest: 2kuIS8nDjswc0Ofx/8uu79VU7+8sNiutpNt83SdtaA4=
+

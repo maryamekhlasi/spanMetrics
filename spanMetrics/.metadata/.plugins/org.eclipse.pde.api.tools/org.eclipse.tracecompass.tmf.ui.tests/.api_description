@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.ui.tests" modificationStamp="619" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests.experiment.type"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/shared&lt;org.eclipse.tracecompass.tmf.ui.tests"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.widgets.timegraph.test.stub.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.symbols"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/shared&lt;org.eclipse.tracecompass.tmf.ui.tests.shared"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.views.uml2sd.dialogs"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.widgets.timegraph.test.stub.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests.stubs.views"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests.uml2sd.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.viewers"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.markers"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.project.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.actions"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests.uml2sd.load"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.views.uml2sd.load"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.widgets.timegraph.test.stub.adaption"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.statistics"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.views.uml2sd.loader"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.widgets.timegraph.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/src&lt;org.eclipse.tracecompass.tmf.ui.tests.histogram"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ui.tests/widgetStubs&lt;org.eclipse.tracecompass.tmf.ui.tests.stubs.analysis"/>
+    </package>
+</component>

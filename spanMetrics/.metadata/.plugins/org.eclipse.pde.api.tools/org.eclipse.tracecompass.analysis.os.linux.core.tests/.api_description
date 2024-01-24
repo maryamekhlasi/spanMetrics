@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.analysis.os.linux.core.tests" modificationStamp="4415" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.latency"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/stubs&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/stubs&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.stubs"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/stubs&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.stubs.inputoutput"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.kernelmemoryusage"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/stubs&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.stubs.kernel"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.callsite"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.kernel"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/stubs&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.stubs.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.network"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.contextswitch"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.cpuusage"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.os.linux.core.tests/src&lt;org.eclipse.tracecompass.analysis.os.linux.core.tests.inputoutput"/>
+    </package>
+</component>

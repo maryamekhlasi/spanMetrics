@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.btf.core" modificationStamp="4136" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core{Activator.java[Activator" modificationStamp="8544" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.analysis"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.analysis{BtfAnalysisModule.java[BtfAnalysisModule" modificationStamp="8548" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.analysis{BtfStateProvider.java[BtfStateProvider" modificationStamp="8549" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace{BtfColumnNames.java[BtfColumnNames" modificationStamp="8553" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace{BtfEventAspects.java[BtfEventAspects" modificationStamp="8554" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace{BtfEventTypeFactory.java[BtfEventTypeFactory" modificationStamp="8555" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace{BtfTimestampFormat.java[BtfTimestampFormat" modificationStamp="8556" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.trace{BtfTrace.java[BtfTrace" modificationStamp="8557" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.event"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.event{BTFPayload.java[BTFPayload" modificationStamp="8550" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.event{BtfEvent.java[BtfEvent" modificationStamp="8551" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.btf.core/src&lt;org.eclipse.tracecompass.btf.core.event{BtfEventType.java[BtfEventType" modificationStamp="8552" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.traceevent.core.tests" modificationStamp="2230" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.traceevent.core.tests/src&lt;org.eclipse.tracecompass.incubator.traceevent.core.tests"/>
+    </package>
+</component>

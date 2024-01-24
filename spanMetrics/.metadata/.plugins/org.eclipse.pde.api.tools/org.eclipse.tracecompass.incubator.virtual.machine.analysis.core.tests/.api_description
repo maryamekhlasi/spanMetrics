@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests" modificationStamp="2098" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/shared&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.shared.vm"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/src&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/shared&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/shared&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.shared.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/src&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.virtual.resources"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/src&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.fused"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/src&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests/src&lt;org.eclipse.tracecompass.incubator.virtual.machine.analysis.core.tests.overhead"/>
+    </package>
+</component>

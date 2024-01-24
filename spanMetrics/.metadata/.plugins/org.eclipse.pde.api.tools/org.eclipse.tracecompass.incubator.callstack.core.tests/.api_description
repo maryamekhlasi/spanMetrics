@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.callstack.core.tests" modificationStamp="3683" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/stubs&lt;org.eclipse.tracecompass.incubator.callstack.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/perf&lt;org.eclipse.tracecompass.incubator.callstack.core.tests"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.flamechart.statesystem"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.xml.module"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/stubs&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.stubs"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.flamechart"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.callgraph.instrumented"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.lttng2.ust.callstack"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.sampled"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/src&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.callgraph"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.callstack.core.tests/perf&lt;org.eclipse.tracecompass.incubator.callstack.core.tests.perf.analysis"/>
+    </package>
+</component>

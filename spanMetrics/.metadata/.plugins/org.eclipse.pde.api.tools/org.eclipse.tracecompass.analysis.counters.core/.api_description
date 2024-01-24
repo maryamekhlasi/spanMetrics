@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.analysis.counters.core" modificationStamp="4609" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core{CounterAnalysis.java[CounterAnalysis" modificationStamp="9005" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core{CounterStateProvider.java[CounterStateProvider" modificationStamp="9006" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core{CounterType.java[CounterType" modificationStamp="9007" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core{package-info.java[package-info" modificationStamp="9009" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core.aspects"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core.aspects{AbstractCounterAspect.java[AbstractCounterAspect" modificationStamp="9010" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core.aspects{ITmfCounterAspect.java[ITmfCounterAspect" modificationStamp="9012" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core.aspects{CounterAspect.java[CounterAspect" modificationStamp="9011" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.analysis.counters.core/src&lt;org.eclipse.tracecompass.analysis.counters.core.aspects{package-info.java[package-info" modificationStamp="9013" restrictions="0" visibility="0"/>
+    </package>
+</component>

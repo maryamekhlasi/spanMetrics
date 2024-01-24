@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.core.tests" modificationStamp="980" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.event"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.analysis.ondemand"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.analysis"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.event.lookup"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.event.lookup.aspect"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.analysis.ondemand"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.filter.parser"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.trace.xml"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.synchronization"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.event.matching"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.component"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.parsers.custom"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace.indexer.checkpoint"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace.location"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/perf&lt;org.eclipse.tracecompass.tmf.core.tests.perf.synchronization"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/shared&lt;org.eclipse.tracecompass.tmf.core.tests.shared"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace.stub"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.markers"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace.text"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.io"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.uml2sd"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.filter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.analysis"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.trace.text"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.analysis.requirements"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.trace.indexer"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.request"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.request"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.signal"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/shared&lt;org.eclipse.tracecompass.tmf.core.tests"/>
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/perf&lt;org.eclipse.tracecompass.tmf.core.tests"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.event"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.statesystem.mipmap"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.symbols"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.model"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.component"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/src&lt;org.eclipse.tracecompass.tmf.core.tests.statesystem"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.tests.stubs"/>
+    </package>
+</component>

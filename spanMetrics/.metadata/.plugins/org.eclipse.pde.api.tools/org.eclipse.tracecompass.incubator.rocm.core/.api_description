@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.rocm.core" modificationStamp="2743" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis{RocmCallStackAnalysis.java[RocmCallStackAnalysis" modificationStamp="12073" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis{RocmCallStackStateProvider.java[RocmCallStackStateProvider" modificationStamp="12074" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis{RocmMetadataAnalysis.java[RocmMetadataAnalysis" modificationStamp="12075" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis{RocmMetadataStateProvider.java[RocmMetadataStateProvider" modificationStamp="12076" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.internal.rocm.core.analysis{RocmStrings.java[RocmStrings" modificationStamp="12077" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.analysis.dependency"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.analysis.dependency{IDependencyMaker.java[IDependencyMaker" modificationStamp="12068" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{GpuAspect.java[GpuAspect" modificationStamp="12058" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{Messages.java[Messages" modificationStamp="12059" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{RocmAspects.java[RocmAspects" modificationStamp="12060" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{RocmCounterAspect.java[RocmCounterAspect" modificationStamp="12061" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{RocmTrace.java[RocmTrace" modificationStamp="12062" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{RocmTraceSymbolProvider.java[RocmTraceSymbolProvider" modificationStamp="12063" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.rocm.core/src&lt;org.eclipse.tracecompass.incubator.rocm.core.trace{RocmTraceSymbolProviderFactory.java[RocmTraceSymbolProviderFactory" modificationStamp="12064" restrictions="0" visibility="0"/>
+    </package>
+</component>

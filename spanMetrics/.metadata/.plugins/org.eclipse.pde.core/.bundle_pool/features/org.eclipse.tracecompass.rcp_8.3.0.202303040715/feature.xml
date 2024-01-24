@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.tracecompass.rcp"
+      label="%featureName"
+      version="8.3.0.202303040715"
+      provider-name="%featureProvider"
+      plugin="org.eclipse.tracecompass.rcp.branding">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.e4.rcp" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.equinox.p2.core.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.equinox.p2.extras.feature" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.help" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.tracecompass.tmf" version="0.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.platform" version="0.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="javax.xml"
+         download-size="246"
+         install-size="413"
+         version="1.3.4.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="56"
+         install-size="108"
+         version="1.1.0.v201211130549"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.stream"
+         download-size="39"
+         install-size="70"
+         version="1.0.1.v201004272200"
+         unpack="false"/>
+
+   <plugin
+         id="org.json"
+         download-size="58"
+         install-size="107"
+         version="1.0.0.v201011060100"
+         unpack="false"/>
+
+   <plugin
+         id="org.antlr.runtime"
+         download-size="208"
+         install-size="437"
+         version="3.2.0.v201101311130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.rcp.ui"
+         download-size="44"
+         install-size="119"
+         version="8.3.0.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.rcp.doc.user"
+         download-size="575"
+         install-size="631"
+         version="8.3.0.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtchart"
+         download-size="136"
+         install-size="263"
+         version="0.12.0.202003130409"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtchart.extensions"
+         download-size="274"
+         install-size="531"
+         version="0.12.0.202003130409"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="262"
+         install-size="521"
+         version="2.8.6.v20201231-1626"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2841"
+         install-size="6376"
+         version="27.1.0.v20190517-1946"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.core"
+         download-size="6089"
+         install-size="13814"
+         version="7.2.100.202105180159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.core.native"
+         download-size="61"
+         install-size="108"
+         version="6.1.200.202105261421"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.trace"
+         download-size="58"
+         install-size="111"
+         version="1.2.0.v20210110-1242"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent"
+         download-size="26"
+         install-size="46"
+         version="1.2.0.v20210202-1157"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log"
+         download-size="169"
+         install-size="292"
+         version="1.2.1500.v20210315-1034"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="302"
+         install-size="604"
+         version="2.8.0.v20210415-0900"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.progress"
+         download-size="207"
+         install-size="394"
+         version="0.3.100.v20210110-1959"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="7089"
+         install-size="16650"
+         version="3.26.0.v20210609-0549"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.compiler.batch"
+         download-size="3060"
+         install-size="7637"
+         version="3.26.0.v20210609-0549"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.core"
+         download-size="147"
+         install-size="277"
+         version="4.0.0.201909031456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.ui"
+         download-size="155"
+         install-size="317"
+         version="2.1.1.201909031456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.jsch.core"
+         download-size="92"
+         install-size="197"
+         version="1.0.0.201909031456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.remote.jsch.ui"
+         download-size="42"
+         install-size="79"
+         version="1.0.0.201909031456"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.core"
+         download-size="58"
+         install-size="108"
+         version="1.4.100.v202103232321"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.environment"
+         download-size="47"
+         install-size="86"
+         version="1.0.401.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.frameworks"
+         download-size="117"
+         install-size="225"
+         version="1.2.202.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.frameworks.ui"
+         download-size="151"
+         install-size="300"
+         version="1.2.401.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.project.facet.core"
+         download-size="361"
+         install-size="828"
+         version="1.4.401.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.ui"
+         download-size="148"
+         install-size="288"
+         version="1.2.100.v202101112327"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.common.uriresolver"
+         download-size="46"
+         install-size="86"
+         version="1.3.0.v202007161535"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.sse.core"
+         download-size="467"
+         install-size="969"
+         version="1.2.600.v202102110535"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.sse.ui"
+         download-size="1056"
+         install-size="2272"
+         version="1.7.200.v202103232331"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.validation"
+         download-size="411"
+         install-size="959"
+         version="1.2.801.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.validation.ui"
+         download-size="157"
+         install-size="331"
+         version="1.2.601.v202007142017"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.core"
+         download-size="793"
+         install-size="1676"
+         version="1.2.300.v202102110535"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xml.ui"
+         download-size="1008"
+         install-size="2107"
+         version="1.2.600.v202102222242"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="1437"
+         install-size="3066"
+         version="2.12.1.v20210115-0812"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.resolver"
+         download-size="97"
+         install-size="205"
+         version="1.2.0.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.serializer"
+         download-size="293"
+         install-size="588"
+         version="2.7.1.v201005080400"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.compress"
+         download-size="639"
+         install-size="1239"
+         version="1.19.0.v20200106-2343"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="299"
+         install-size="630"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="332"
+         install-size="730"
+         version="3.1.0.v201403281430"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wst.xsd.core"
+         download-size="76"
+         install-size="153"
+         version="1.2.100.v202008180353"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.xsd"
+         download-size="981"
+         install-size="2786"
+         version="2.18.0.v20210427-0854"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.cli"
+         download-size="64"
+         install-size="129"
+         version="1.4.0.v20200417-1444"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swtchart"
+         download-size="136"
+         install-size="263"
+         version="0.12.0.202003130409"
+         unpack="false"/>
+
+   <plugin
+         id="jakarta.xml.bind"
+         download-size="133"
+         install-size="256"
+         version="2.3.3.v20201118-1818"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml.bind"
+         download-size="122"
+         install-size="235"
+         version="2.2.0.v201105210648"
+         unpack="false"/>
+
+   <plugin
+         id="org.sat4j.core"
+         download-size="367"
+         install-size="704"
+         version="2.3.5.v201308161310"
+         unpack="false"/>
+
+   <plugin
+         id="org.sat4j.pb"
+         download-size="244"
+         install-size="504"
+         version="2.3.5.v201404071733"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="51"
+         install-size="101"
+         version="1.7.30.v20200204-2150"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.javascript"
+         download-size="1268"
+         install-size="2644"
+         version="1.7.10.v20190430-1943"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.scr"
+         download-size="411"
+         install-size="960"
+         version="2.1.24.v20200924-1939"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.jxpath"
+         download-size="317"
+         install-size="658"
+         version="1.3.0.v200911051830"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jna"
+         download-size="1724"
+         install-size="4777"
+         version="5.8.0.v20210503-0343"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jna.platform"
+         download-size="1444"
+         install-size="2885"
+         version="5.8.0.v20210406-1004"
+         unpack="false"/>
+
+</feature>

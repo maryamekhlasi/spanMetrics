@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.tracecompass.testing"
+      label="%featureName"
+      version="8.3.0.202303040715"
+      provider-name="%featureProvider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.counters.core.tests"
+         download-size="11"
+         install-size="50"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.counters.ui.swtbot.tests"
+         download-size="20"
+         install-size="81"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.graph.core.tests"
+         download-size="60"
+         install-size="164"
+         version="1.0.7.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.lami.core.tests"
+         download-size="29"
+         install-size="229"
+         version="1.0.4.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.core.tests"
+         download-size="100"
+         install-size="249"
+         version="1.0.15.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.ui.swtbot.tests"
+         download-size="32"
+         install-size="106"
+         version="1.0.16.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.os.linux.ui.tests"
+         download-size="14"
+         install-size="67"
+         version="1.0.9.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.timing.core.tests"
+         download-size="60"
+         install-size="176"
+         version="1.0.10.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.analysis.timing.ui.swtbot.tests"
+         download-size="18"
+         install-size="78"
+         version="1.0.11.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.btf.core.tests"
+         download-size="223"
+         install-size="2137"
+         version="1.0.3.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.common.core.tests"
+         download-size="54"
+         install-size="133"
+         version="1.1.10.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.ctf.core.tests"
+         download-size="154"
+         install-size="406"
+         version="1.0.11.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.ctf.parser.tests"
+         download-size="16"
+         install-size="57"
+         version="1.0.3.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.gdbtrace.core.tests"
+         download-size="7"
+         install-size="48"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.gdbtrace.ui.tests"
+         download-size="7"
+         install-size="48"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.integration.swtbot.tests"
+         download-size="63"
+         install-size="197"
+         version="1.0.13.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.common.core.tests"
+         download-size="8"
+         install-size="40"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.core.tests"
+         download-size="55"
+         install-size="150"
+         version="1.1.3.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.ui.swtbot.tests"
+         download-size="42"
+         install-size="135"
+         version="1.0.8.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.ui.tests"
+         download-size="115"
+         install-size="317"
+         version="2.0.5.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.kernel.core.tests"
+         download-size="138"
+         install-size="336"
+         version="2.0.6.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.kernel.ui.swtbot.tests"
+         download-size="92"
+         install-size="250"
+         version="1.0.19.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.core.tests"
+         download-size="40"
+         install-size="109"
+         version="1.0.13.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.ui.swtbot.tests"
+         download-size="20"
+         install-size="83"
+         version="1.0.15.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.ust.ui.tests"
+         download-size="7"
+         install-size="50"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.pcap.core.tests"
+         download-size="46"
+         install-size="109"
+         version="1.0.5.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.segmentstore.core.tests"
+         download-size="41"
+         install-size="120"
+         version="1.0.6.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.statesystem.core.tests"
+         download-size="90"
+         install-size="209"
+         version="1.0.15.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.core.tests"
+         download-size="157"
+         install-size="409"
+         version="1.0.14.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.ui.swtbot.tests"
+         download-size="31"
+         install-size="102"
+         version="1.0.13.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.analysis.xml.ui.tests"
+         download-size="10"
+         install-size="53"
+         version="1.0.4.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.core.tests"
+         download-size="38"
+         install-size="103"
+         version="1.0.3.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.ui.swtbot.tests"
+         download-size="23"
+         install-size="86"
+         version="1.0.6.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.chart.ui.tests"
+         download-size="8"
+         install-size="47"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.cli.core.tests"
+         download-size="11"
+         install-size="44"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.core.tests"
+         download-size="943"
+         install-size="3777"
+         version="1.0.22.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ctf.core.tests"
+         download-size="206"
+         install-size="548"
+         version="1.0.15.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ctf.ui.swtbot.tests"
+         download-size="37"
+         install-size="118"
+         version="1.0.11.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.pcap.core.tests"
+         download-size="20"
+         install-size="68"
+         version="1.0.3.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.pcap.ui.swtbot.tests"
+         download-size="17"
+         install-size="70"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.core.tests"
+         download-size="14"
+         install-size="53"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.ui.swtbot.tests"
+         download-size="22"
+         install-size="90"
+         version="1.0.9.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.ui.tests"
+         download-size="14"
+         install-size="63"
+         version="1.0.2.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ui.swtbot.tests"
+         download-size="325"
+         install-size="725"
+         version="1.0.19.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.ui.tests"
+         download-size="597"
+         install-size="6020"
+         version="1.0.18.202303040715"
+         unpack="false"/>
+
+</feature>

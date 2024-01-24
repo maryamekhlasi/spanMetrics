@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.ctf.core.tests" modificationStamp="921" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/shared&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.shared"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.event"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/stubs&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.stubs"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/perf&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.perf.experiment"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.trace"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.trace.indexer"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.trim"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.context"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.ctf.core.tests/src&lt;org.eclipse.tracecompass.tmf.ctf.core.tests.iterator"/>
+    </package>
+</component>

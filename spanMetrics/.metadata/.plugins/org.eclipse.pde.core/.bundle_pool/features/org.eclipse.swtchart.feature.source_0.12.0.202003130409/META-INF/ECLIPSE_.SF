@@ -1,0 +1,20 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: rmzBgFvWrJhzgKobSw5I+dZaIWM/Q
+ 9xi3NMNPJzWh3E=
+SHA-256-Digest-Manifest: 48pLvtMmx3EuPHFQRxA9+vbhU6vse9EpqBWGGLCdrU0=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: META-INF/maven/org.eclipse.swtchart/org.eclipse.swtchart.feature
+ /pom.properties
+SHA-256-Digest: 1rbNtAlLR48adK29PzTELQgjtGolUWDShcneIAf2dyc=
+
+Name: META-INF/maven/org.eclipse.swtchart/org.eclipse.swtchart.feature
+ /pom.xml
+SHA-256-Digest: juFpI9Wf3Zr5mloIQ5h8WzWLHZ/U1QeStIftSASSRHI=
+
+Name: feature.xml
+SHA-256-Digest: wKMldh39IdWQk3BWj/VP5JOpP4qcLT5pJrj7vCyzdnE=
+
+Name: feature.properties
+SHA-256-Digest: kJTO38nqQj/GSLBFYmykjYZyWjPd6ksNK7cWuurxoCk=
+

@@ -1,0 +1,150 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 15
+Bundle-ManifestVersion: 2
+Bundle-Name: EASE Python Language (Incubation)
+Bundle-SymbolicName: org.eclipse.ease.lang.python;singleton:=true
+Bundle-Version: 0.8.0.I202104091425
+Bundle-Vendor: Eclipse.org
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ease,org.eclipse.ease.ui,org.eclipse.ui;bund
+ le-version="[3.7.0,4.0.0)",org.eclipse.text;bundle-version="[3.5.300,4.
+ 0.0)",org.eclipse.debug.core;bundle-version="[3.7.1,4.0.0)",org.eclipse
+ .debug.ui;bundle-version="[3.7.102,4.0.0)",org.eclipse.ui.editors;bundl
+ e-version="[3.7.0,4.0.0)",org.eclipse.ui.ide;bundle-version="[3.7.0,4.0
+ .0)"
+Bundle-Activator: org.eclipse.ease.lang.python.Activator
+Bundle-ActivationPolicy: lazy
+Eclipse-BuddyPolicy: global
+Export-Package: org.eclipse.ease.lang.python,org.eclipse.ease.lang.pytho
+ n.debug,org.eclipse.ease.lang.python.debugger,org.eclipse.ease.lang.pyt
+ hon.debugger.actions,org.eclipse.ease.lang.python.debugger.model,org.ec
+ lipse.ease.lang.python.preferences,org.eclipse.ease.lang.python.ui.comp
+ letion
+Bundle-ClassPath: .
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.ease.lang.python
+
+Name: plugin.xml
+SHA-256-Digest: fIWANh5AD0DfTXsg8a8Z5LgFpvH5ws0kOXzZ89rt4Y4=
+
+Name: org/eclipse/ease/lang/python/debug/ITracingConstant.class
+SHA-256-Digest: MSThegHSWpbAq9LURlbbkwG/uhOzkQ0n5t99tlPAYkE=
+
+Name: org/eclipse/ease/lang/python/PythonCompletionContext.class
+SHA-256-Digest: ZV98ssOri+VvX+wif5AJP9l8Kcttu0CD7zYdgW4FDeE=
+
+Name: org/eclipse/ease/lang/python/debugger/actions/MagicFilterAction.cl
+ ass
+SHA-256-Digest: BBdNM552p7SWDtGiKYPNUI6Gxvm4b4ieUngW98qXbrc=
+
+Name: org/eclipse/ease/lang/python/ui/completion/PythonCompletionProvide
+ rWrapper.class
+SHA-256-Digest: Ti4aZFXm+CJzIyIDO8XAmpnVXXfQBJqlIbkHkcvEHn4=
+
+Name: org/eclipse/ease/lang/python/PythonCodeParser.class
+SHA-256-Digest: 1O0WM74D5eKrtbFOd59veH9C7jvGUI8RZv4cDOz9Aqg=
+
+Name: org/eclipse/ease/lang/python/debugger/IPyFrame.class
+SHA-256-Digest: p+2X75Pe3hxxgNedZ+89Vtu76+762EHQZ0lUrgCKrMI=
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python/pom.x
+ ml
+SHA-256-Digest: 3rfAfQv+lZ/ZrIO/s1w0XS0TWIqcpld5tYL6248CWtA=
+
+Name: org/eclipse/ease/lang/python/Activator.class
+SHA-256-Digest: /M+8KtZDI22ksc26abg0+YzLYNx48Dh4dfSOOZbxwsg=
+
+Name: org/eclipse/ease/lang/python/PythonCodeFactory.class
+SHA-256-Digest: G/iO/lsL9Q5IoIbL1hAcyjFJ8UmahShgm8bL6GT8wnw=
+
+Name: org/eclipse/ease/lang/python/debugger/model/PythonDebugModelPresen
+ tation.class
+SHA-256-Digest: rrjTRpSyC5ldE6Ww1IISovpNBZ9G3wwbpxbk44qpM10=
+
+Name: org/eclipse/ease/lang/python/debugger/ICodeTracer.class
+SHA-256-Digest: H3Ux+hleSKqJycE9CjzA2um/kTSav/sHTSfJcyl3cwM=
+
+Name: pysrc/pep302.py
+SHA-256-Digest: ar4yqwCU5ylODHNEqHHueOcxxhUPa6or1kvFwVah0A0=
+
+Name: org/eclipse/ease/lang/python/debugger/model/PythonDebugTarget.clas
+ s
+SHA-256-Digest: yl8SX4l/ZgRo8YKoeNG94R7DXOdtnY8gjxwQ4g/LzFc=
+
+Name: org/eclipse/ease/lang/python/debugger/PythonScriptRegistry.class
+SHA-256-Digest: JNW0+KWQo4EG0E/RCxHaSVZcKJhjXcnJlyFhXmNQ3DA=
+
+Name: org/eclipse/ease/lang/python/debugger/IPythonDebugEngine.class
+SHA-256-Digest: o7gNnt12sRPF0VWjsjIOL+GRi0eAb7wticUzdoknG+I=
+
+Name: org/eclipse/ease/lang/python/debugger/actions/ViewFilterAction.cla
+ ss
+SHA-256-Digest: WOGbdRkEqD+7dIRiwmeYmAY7kM7dwVtrZVyNdjH4WQo=
+
+Name: pysrc/code_completion/completion.py
+SHA-256-Digest: uo+aUch0LrUV3U6J0gB9CMuNBa2eE7NzPjN31T18vHM=
+
+Name: pysrc/edb.py
+SHA-256-Digest: LrrdwufKwTlh0rZbeHDxfLTFPDfn8BETfKlw55zUoNY=
+
+Name: about.html
+SHA-256-Digest: FAqe9u4JcPmm1jLsOka6DOYKmbnKBHb4scJbjZovBfk=
+
+Name: pysrc/code_completion/__init__.py
+SHA-256-Digest: ZVhFYgWbL/TZ+7jDFqGp8EzK8pAVxMv5lSK+TLMHlWQ=
+
+Name: org/eclipse/ease/lang/python/ui/completion/PythonHelpResolver.clas
+ s
+SHA-256-Digest: +l1Qy/Tqo+VC2XDzKm4CWrniK1I57ISX8c5Uw451Lt8=
+
+Name: org/eclipse/ease/lang/python/preferences/IPreferenceConstants.clas
+ s
+SHA-256-Digest: rNtwlyIVsxXp1Zmt160poMIxpfUrxvzSYIO7yy6E6/4=
+
+Name: org/eclipse/ease/lang/python/debugger/PythonEventDispatchJob.class
+SHA-256-Digest: iFsyryXwAokkO8ZCalFRTvFk19NP+EDehApnqX3O8hk=
+
+Name: pysrc/code_completion/utility.py
+SHA-256-Digest: jTQA6EijMKVQ1B+72anAQR5Q9WiaA/anP6yUrp+qufI=
+
+Name: org/eclipse/ease/lang/python/debugger/PythonDebugger$PythonDebugFr
+ ame.class
+SHA-256-Digest: 8Uo4vXqZlQWKpR79gLVI5IQnsTQucMkhp8W+8HToUGE=
+
+Name: org/eclipse/ease/lang/python/debugger/actions/ViewFilterAction$Upd
+ ater.class
+SHA-256-Digest: /v2zNw5s0jOYQYnI1kS8h5XCAf1CuaQr3M8bMvGyk9Q=
+
+Name: org/eclipse/ease/lang/python/debugger/PythonBreakpoint.class
+SHA-256-Digest: GiVg2ShZw8XVho4f58lA8cQwuAZQOG9I+7O0HeYOBj4=
+
+Name: org/eclipse/ease/lang/python/debugger/actions/FrameworkFilterActio
+ n.class
+SHA-256-Digest: cHiurH8h7/YE0tekvtYJPY87hyYy+1KiKfpnWUAMZ0Y=
+
+Name: org/eclipse/ease/lang/python/PythonHelper.class
+SHA-256-Digest: q8MnqPUF/hBYSAGPtv4S75bf2LtcRx2ii7rE3i08tWY=
+
+Name: org/eclipse/ease/lang/python/debugger/ResourceHelper.class
+SHA-256-Digest: XT15Cs3+2YiGeE2yqNpormlU4YuXXr1MGgs3p1gTYLE=
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python/pom.p
+ roperties
+SHA-256-Digest: RA2YU5VgCZ1pReTZ2njqdPjI6ovDMPqR0prLOwQkFYE=
+
+Name: org/eclipse/ease/lang/python/debugger/PythonDebugger.class
+SHA-256-Digest: 1dT+i9A3GUo2gZoMOGWA/jbt/ktVjVIoKpKAcvis5+Y=
+
+Name: org/eclipse/ease/lang/python/debugger/IPythonScriptRegistry.class
+SHA-256-Digest: e9lG8Ecj7qE+QZxVVbo+ZZU+v2UqoRURo2uCx81f9d0=
+
+Name: org/eclipse/ease/lang/python/Pep302ModuleImporter.class
+SHA-256-Digest: FxYAjAaCXAik5Tfz4KJqT9GZlv3RcbFjpIA53D+01YQ=
+
+Name: pysrc/code_completion/documentation.py
+SHA-256-Digest: QYgujVoXdPUC9PV0aAdiNgUeYw78OPyQ4qFBCxXFS1Y=
+
+Name: pysrc/autocomplete.py
+SHA-256-Digest: 5GDI5gIYL4x/WOgQDRx2kGOpGjrzpeBAZasHTLlpDTM=
+

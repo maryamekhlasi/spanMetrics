@@ -1,0 +1,83 @@
+Signature-Version: 1.0
+Created-By: 11.0.11 (AdoptOpenJDK)
+SHA-256-Digest-Manifest: TETmpIhF+St2+9fZ2cUPdUCg+qEkv6lyNxtXaJHnj/Y=
+SHA-256-Digest-Manifest-Main-Attributes: Z/cjhI4/6UKWANSDi8IP0d8ejQPadAI
+ NeIFlvNZWK2o=
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python.py4j/
+ pom.properties
+SHA-256-Digest: KpRUWGMHrwER+JL0j0uf9IGJu7aT2xaW9t1f6CsdaPw=
+
+Name: plugin.xml
+SHA-256-Digest: XPgSOdxzZNw5HoErW8svnG3dhgOlixumrlJFXcX3dwk=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4JBootstrap.class
+SHA-256-Digest: fU5HTA59Ct7RXioSvSNCryp6UUJrYW1uMRXKINRRLUI=
+
+Name: help/html/py4j_engine.html
+SHA-256-Digest: Xo/KClvtefAySgC18sexZUNxLGH8cr/1JyjaPJxmehA=
+
+Name: pysrc/ease_py4j_main.py
+SHA-256-Digest: 6OP1x9nAoqzot6UpaYFsxfn/omHPOm3t72zyunjtq4w=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4JScriptEnginePrefCon
+ stants.class
+SHA-256-Digest: luAI+w19L54JoarhKPcUba/mHQsB87RWT4JL+iIqFZk=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/IInteractiveReturn.clas
+ s
+SHA-256-Digest: lS11q6qtqvaRliT3tdiVGJ42h44C+Etci9FbIqLEpns=
+
+Name: pysrc/py4jdb.py
+SHA-256-Digest: mfPWSLeMOsaJeXPEujcfZK8nREmIVILngNUAZ2JDraI=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage$1
+ $1.class
+SHA-256-Digest: fBZ5HarD+xaABOuBP8mkLP4Ozd12O31RZcR4JKyyess=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine.class
+SHA-256-Digest: eVypRToeygf82YnyMwtNJfU7hL7FyLqvkDH0Ir6iAJc=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jDebugger.class
+SHA-256-Digest: F3VEfEo+C2OJrhnPecNYlDOR8jjVBno6i9h6DjPr8fI=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/IPythonSideEngine.class
+SHA-256-Digest: WxSjar5TTSldiJg/3Mg+z69OlYRAX2zfv4Pa2uuc5uE=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage$1
+ .class
+SHA-256-Digest: 7aRIRrOqFjsSts8zax19h1x7Z5dj7UxxLIq8Wzc95Ww=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Activator.class
+SHA-256-Digest: 3255SxpoavL71zcEwzmVX+G7eMMrdhBlBSkF/qep3Mg=
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python.py4j/
+ pom.xml
+SHA-256-Digest: DEWxgIiinb0DVABYA7K/xn1gUDouVDjcOrACQFFG2GQ=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jDebuggerEngine.clas
+ s
+SHA-256-Digest: 33rgpwLgUIcfqAf+kcdUaerY3UByYsbFxlhGNtX+mUU=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/PreferenceInitialize
+ r.class
+SHA-256-Digest: dIls2rpb5gcfkd/gIIVZ6aQ5c3Hfqlmsi8rbIffSe0k=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine$Stream
+ Gobbler.class
+SHA-256-Digest: JeZz4i7U5Z6gYT18BZY9KhWaHdU8F+aT2cSsc3qV3Tg=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ICodeTraceFilter.class
+SHA-256-Digest: rbu2wPknrWyOv0gv6M1STPMLW19NaAiN0zPKvnm2HmE=
+
+Name: help/engines.xml
+SHA-256-Digest: Y3vUuO18fxpIR/bmGJXZsWF+cr/9M8ywcSAVI9hmMbA=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage.c
+ lass
+SHA-256-Digest: xL0VjEqj8KCEafGCgvDdYYlHvAMffx3n1QDyXlyrHA8=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine$1.clas
+ s
+SHA-256-Digest: sFBaRVuJ9RF67+GlPpDrKFdwDC6MDFz/vpnby4ET1Lc=
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ease.feature"
+      label="EASE Core Framework (Incubation)"
+      version="0.9.0.I202206140954"
+      provider-name="Eclipse.org"
+      plugin="org.eclipse.ease">
+
+   <description url="https://www.eclipse.org/ease/">
+      All the core component mandatory for EASE
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2013 Christian Pontesegger and Arthur Daussy
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v2.0
+which accompanies this distribution, and is available at
+https://www.eclipse.org/legal/epl-2.0/
+
+Contributors:
+    Christian Pontesegger - initial API and implementation
+    Arthur Daussy - initial API and implementation
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ease"
+         download-size="233"
+         install-size="477"
+         version="0.9.0.I202206140954"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.classloader"
+         download-size="11"
+         install-size="15"
+         version="0.9.0.I202204261218"
+         unpack="false"/>
+
+</feature>

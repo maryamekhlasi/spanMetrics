@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui" modificationStamp="2391" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{AbstractTimeGraphMultiViewer.java[AbstractTimeGraphMultiViewer" modificationStamp="13008" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{ActionsDataProviderTimeGraphMultiViewer.java[ActionsDataProviderTimeGraphMultiViewer" modificationStamp="13009" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{BaseDataProviderTimeGraphMultiViewer.java[BaseDataProviderTimeGraphMultiViewer" modificationStamp="13010" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{IHasTimeGraphPresentationProvider.java[IHasTimeGraphPresentationProvider" modificationStamp="13011" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{Messages.java[Messages" modificationStamp="13012" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.tmf.ui.multiview.ui/src&lt;org.eclipse.tracecompass.incubator.internal.tmf.ui.multiview.ui.view.timegraph{TimeEventFilterDialog.java[TimeEventFilterDialog" modificationStamp="13013" restrictions="0" visibility="0"/>
+    </package>
+</component>

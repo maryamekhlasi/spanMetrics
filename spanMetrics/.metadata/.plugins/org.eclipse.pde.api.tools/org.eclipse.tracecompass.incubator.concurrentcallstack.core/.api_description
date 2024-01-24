@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.concurrentcallstack.core" modificationStamp="558799" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{Messages.java[Messages" modificationStamp="558915" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanCallGraphAnalysis.java[SpanCallGraphAnalysis" modificationStamp="558916" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanCallStack.java[SpanCallStack" modificationStamp="558917" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanCallStackSeries.java[SpanCallStackSeries" modificationStamp="558919" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanCallStackAnalysis.java[SpanCallStackAnalysis" modificationStamp="558918" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanFlameStateProvider.java[SpanFlameStateProvider" modificationStamp="558922" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanCallStackStateProvider.java[SpanCallStackStateProvider" modificationStamp="558920" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanInstrumentedCallStackElement.java[SpanInstrumentedCallStackElement" modificationStamp="558923" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{SpanFlameAnalysis.java[SpanFlameAnalysis" modificationStamp="558921" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.concurrentcallstack.core/src&lt;org.eclipse.tracecompass.incubator.concurrentcallstack.core{package-info.java[package-info" modificationStamp="558925" restrictions="0" visibility="0"/>
+    </package>
+</component>

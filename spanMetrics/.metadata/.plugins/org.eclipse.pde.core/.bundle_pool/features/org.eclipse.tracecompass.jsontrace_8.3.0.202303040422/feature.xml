@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.tracecompass.jsontrace"
+      label="%featureName"
+      version="8.3.0.202303040422"
+      provider-name="%featureProvider">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.tracecompass.tmf"
+         version="8.3.0.202303040422"/>
+
+   <requires>
+      <import plugin="org.eclipse.tracecompass.common.core"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.tracecompass.tmf.core"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.tracecompass.jsontrace.core"
+         download-size="28"
+         install-size="55"
+         version="1.0.3.202303040422"
+         unpack="false"/>
+
+</feature>

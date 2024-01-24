@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.opentracing.core" modificationStamp="3007" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{IOpenTracingConstants.java[IOpenTracingConstants" modificationStamp="7722" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{Messages.java[Messages" modificationStamp="7723" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{OpenTracingAspects.java[OpenTracingAspects" modificationStamp="7724" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{OpenTracingEvent.java[OpenTracingEvent" modificationStamp="7725" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{OpenTracingField.java[OpenTracingField" modificationStamp="7726" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{IOpenTracingAspect.java[IOpenTracingAspect" modificationStamp="7721" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.event{package-info.java[package-info" modificationStamp="7728" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace{JaegerRestUtils.java[JaegerRestUtils" modificationStamp="7729" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace{OpenTracingExperiment.java[OpenTracingExperiment" modificationStamp="7730" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace{OpenTracingSortingJob.java[OpenTracingSortingJob" modificationStamp="7731" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace{OpenTracingTrace.java[OpenTracingTrace" modificationStamp="7732" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.opentracing.core/src&lt;org.eclipse.tracecompass.incubator.internal.opentracing.core.trace{SplitImportTracesOperation.java[SplitImportTracesOperation" modificationStamp="7733" restrictions="0" visibility="0"/>
+    </package>
+</component>

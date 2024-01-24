@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.tmf.core" modificationStamp="945" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.internal.provisional.tmf.core.model"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.internal.provisional.tmf.core.model{TableColumnDescriptor.java[TableColumnDescriptor" modificationStamp="10228" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.internal.provisional.tmf.core.model{package-info.java[package-info" modificationStamp="10232" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.io"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.io{BufferedRandomAccessFile.java[BufferedRandomAccessFile" modificationStamp="7111" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.io{ResourceUtil.java[ResourceUtil" modificationStamp="7112" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics{TmfStatisticsModule.java[TmfStatisticsModule" modificationStamp="7201" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics{ITmfStatistics.java[ITmfStatistics" modificationStamp="7198" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics{TmfStateStatistics.java[TmfStateStatistics" modificationStamp="7199" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics{TmfStatisticsTotalsModule.java[TmfStatisticsTotalsModule" modificationStamp="7202" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statistics{TmfStatisticsEventTypesModule.java[TmfStatisticsEventTypesModule" modificationStamp="7200" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.viewmodel"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.viewmodel{YSeries.java[YSeries" modificationStamp="7256" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.viewmodel{ICommonXAxisModel.java[ICommonXAxisModel" modificationStamp="7254" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.viewmodel{IYSeries.java[IYSeries" modificationStamp="7255" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.viewmodel{package-info.java[package-info" modificationStamp="7257" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{AnnotationCategoriesModel.java[AnnotationCategoriesModel" modificationStamp="10042" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{IOutputAnnotationParameters.java[IOutputAnnotationParameters" modificationStamp="10046" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{IOutputAnnotationProvider.java[IOutputAnnotationProvider" modificationStamp="10047" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{package-info.java[package-info" modificationStamp="10049" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{TraceAnnotationProvider.java[TraceAnnotationProvider" modificationStamp="10048" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{AnnotationModel.java[AnnotationModel" modificationStamp="10043" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{IAnnotation.java[IAnnotation" modificationStamp="10045" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{Annotation.java[Annotation" modificationStamp="10041" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.annotations{EventAnnotationProvider.java[EventAnnotationProvider" modificationStamp="10044" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.callsite"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.callsite{ITmfCallsiteIterator.java[ITmfCallsiteIterator" modificationStamp="10105" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.callsite{ITmfCallsiteResolver.java[ITmfCallsiteResolver" modificationStamp="10106" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.callsite{TimeCallsite.java[TimeCallsite" modificationStamp="10107" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.callsite{package-info.java[package-info" modificationStamp="10108" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.experiment"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.experiment{TmfExperimentUtils.java[TmfExperimentUtils" modificationStamp="9970" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.experiment{TmfExperiment.java[TmfExperiment" modificationStamp="9969" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceSelectedSignal.java[TmfTraceSelectedSignal" modificationStamp="7186" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSignalTracer.java[TmfSignalTracer" modificationStamp="7178" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSignalManager.java[TmfSignalManager" modificationStamp="7176" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceUpdatedSignal.java[TmfTraceUpdatedSignal" modificationStamp="7188" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfWindowRangeUpdatedSignal.java[TmfWindowRangeUpdatedSignal" modificationStamp="7189" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTimestampFormatUpdateSignal.java[TmfTimestampFormatUpdateSignal" modificationStamp="7181" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceOpenedSignal.java[TmfTraceOpenedSignal" modificationStamp="7184" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfEventSearchAppliedSignal.java[TmfEventSearchAppliedSignal" modificationStamp="7170" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfEventSelectedSignal.java[TmfEventSelectedSignal" modificationStamp="7171" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceRangeUpdatedSignal.java[TmfTraceRangeUpdatedSignal" modificationStamp="7185" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSignalHandler.java[TmfSignalHandler" modificationStamp="7175" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfMarkerEventSourceUpdatedSignal.java[TmfMarkerEventSourceUpdatedSignal" modificationStamp="7172" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceModelSignal.java[TmfTraceModelSignal" modificationStamp="7183" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceSynchronizedSignal.java[TmfTraceSynchronizedSignal" modificationStamp="7187" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfEventFilterAppliedSignal.java[TmfEventFilterAppliedSignal" modificationStamp="7169" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfStartSynchSignal.java[TmfStartSynchSignal" modificationStamp="7180" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSignal.java[TmfSignal" modificationStamp="7174" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfTraceClosedSignal.java[TmfTraceClosedSignal" modificationStamp="7182" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfDataModelSelectedSignal.java[TmfDataModelSelectedSignal" modificationStamp="7167" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfStartAnalysisSignal.java[TmfStartAnalysisSignal" modificationStamp="7179" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSignalThrottler.java[TmfSignalThrottler" modificationStamp="7177" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfSelectionRangeUpdatedSignal.java[TmfSelectionRangeUpdatedSignal" modificationStamp="7173" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.signal{TmfEndSynchSignal.java[TmfEndSynchSignal" modificationStamp="7168" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{ITmfTimestamp.java[ITmfTimestamp" modificationStamp="7220" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{TmfTimePreferences.java[TmfTimePreferences" modificationStamp="7221" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{TmfTimeRange.java[TmfTimeRange" modificationStamp="7222" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{TmfTimestampFormat.java[TmfTimestampFormat" modificationStamp="7225" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{TmfTimestampDelta.java[TmfTimestampDelta" modificationStamp="7224" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{ITmfTimePreferencesConstants.java[ITmfTimePreferencesConstants" modificationStamp="7219" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.timestamp{TmfTimestamp.java[TmfTimestamp" modificationStamp="7223" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.ondemand"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.ondemand{IOnDemandAnalysis.java[IOnDemandAnalysis" modificationStamp="10101" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.ondemand{IOnDemandAnalysisReport.java[IOnDemandAnalysisReport" modificationStamp="10102" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.ondemand{OnDemandAnalysisManager.java[OnDemandAnalysisManager" modificationStamp="10103" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.ondemand{package-info.java[package-info" modificationStamp="10104" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.lookup"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.lookup{TmfCallsite.java[TmfCallsite" modificationStamp="10081" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.lookup{ITmfCallsite.java[ITmfCallsite" modificationStamp="10078" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.lookup{ITmfModelLookup.java[ITmfModelLookup" modificationStamp="10079" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.lookup{ITmfSourceLookup.java[ITmfSourceLookup" modificationStamp="10080" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{RGBAColor.java[RGBAColor" modificationStamp="7150" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{IPaletteProvider.java[IPaletteProvider" modificationStamp="7146" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{QualitativePaletteProvider.java[QualitativePaletteProvider" modificationStamp="7149" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{XYPresentationProvider.java[XYPresentationProvider" modificationStamp="7153" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{IXYPresentationProvider.java[IXYPresentationProvider" modificationStamp="7147" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{SequentialPaletteProvider.java[SequentialPaletteProvider" modificationStamp="7152" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{IYAppearance.java[IYAppearance" modificationStamp="7148" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{package-info.java[package-info" modificationStamp="7154" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{RotatingPaletteProvider.java[RotatingPaletteProvider" modificationStamp="7151" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.presentation{DefaultColorPaletteProvider.java[DefaultColorPaletteProvider" modificationStamp="7145" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{IAnalysisRequirementProvider.java[IAnalysisRequirementProvider" modificationStamp="10095" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{TmfAbstractAnalysisRequirement.java[TmfAbstractAnalysisRequirement" modificationStamp="10096" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{TmfAnalysisEventFieldRequirement.java[TmfAnalysisEventFieldRequirement" modificationStamp="10097" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{TmfAnalysisEventRequirement.java[TmfAnalysisEventRequirement" modificationStamp="10098" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{package-info.java[package-info" modificationStamp="10100" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis.requirements{TmfCompositeAnalysisRequirement.java[TmfCompositeAnalysisRequirement" modificationStamp="10099" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core{Messages.java[Messages" modificationStamp="7031" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core{TmfCommonConstants.java[TmfCommonConstants" modificationStamp="7032" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core{TmfProjectNature.java[TmfProjectNature" modificationStamp="7033" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core{TmfStrings.java[TmfStrings" modificationStamp="7034" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component{ITmfComponent.java[ITmfComponent" modificationStamp="7081" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component{TmfComponent.java[TmfComponent" modificationStamp="7083" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component{TmfEventProvider.java[TmfEventProvider" modificationStamp="7084" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component{DataProviderConstants.java[DataProviderConstants" modificationStamp="7080" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.component{ITmfEventProvider.java[ITmfEventProvider" modificationStamp="7082" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{ITmfFilterWithNot.java[ITmfFilterWithNot" modificationStamp="10054" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterEqualsNode.java[TmfFilterEqualsNode" modificationStamp="10060" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterObjectNode.java[TmfFilterObjectNode" modificationStamp="10063" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterMatchesNode.java[TmfFilterMatchesNode" modificationStamp="10061" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterOrNode.java[TmfFilterOrNode" modificationStamp="10064" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{ITmfFilterTreeNode.java[ITmfFilterTreeNode" modificationStamp="10053" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{ITmfFilterWithValue.java[ITmfFilterWithValue" modificationStamp="10055" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterNode.java[TmfFilterNode" modificationStamp="10062" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterTreeNode.java[TmfFilterTreeNode" modificationStamp="10067" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterAspectNode.java[TmfFilterAspectNode" modificationStamp="10057" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterTraceTypeNode.java[TmfFilterTraceTypeNode" modificationStamp="10066" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterRootNode.java[TmfFilterRootNode" modificationStamp="10065" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterContainsNode.java[TmfFilterContainsNode" modificationStamp="10059" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterAndNode.java[TmfFilterAndNode" modificationStamp="10056" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.model{TmfFilterCompareNode.java[TmfFilterCompareNode" modificationStamp="10058" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.text"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.text{TextTraceContext.java[TextTraceContext" modificationStamp="9951" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.text{TextTraceEvent.java[TextTraceEvent" modificationStamp="9952" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.text{TextTraceEventContent.java[TextTraceEventContent" modificationStamp="9953" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.text{TextTrace.java[TextTrace" modificationStamp="9950" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.trim"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.trim{ITmfTrimmableTrace.java[ITmfTrimmableTrace" modificationStamp="9948" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.trim{package-info.java[package-info" modificationStamp="9949" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.response"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.response{ITmfResponse.java[ITmfResponse" modificationStamp="7159" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.response{package-info.java[package-info" modificationStamp="7161" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.response{TmfModelResponse.java[TmfModelResponse" modificationStamp="7160" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter{ITmfFilter.java[ITmfFilter" modificationStamp="7108" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter{FilterManager.java[FilterManager" modificationStamp="7107" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.uml2sd"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.uml2sd{TmfSyncSequenceDiagramEvent.java[TmfSyncSequenceDiagramEvent" modificationStamp="7251" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.uml2sd{ITmfAsyncSequenceDiagramEvent.java[ITmfAsyncSequenceDiagramEvent" modificationStamp="7248" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.uml2sd{TmfAsyncSequenceDiagramEvent.java[TmfAsyncSequenceDiagramEvent" modificationStamp="7250" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.uml2sd{ITmfSyncSequenceDiagramEvent.java[ITmfSyncSequenceDiagramEvent" modificationStamp="7249" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{DataProviderParameterUtils.java[DataProviderParameterUtils" modificationStamp="7086" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{DataTypeUtils.java[DataTypeUtils" modificationStamp="7088" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{DataType.java[DataType" modificationStamp="7087" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{IDataProviderDescriptor.java[IDataProviderDescriptor" modificationStamp="7089" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{IDataProviderFactory.java[IDataProviderFactory" modificationStamp="7090" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{X11ColorUtils.java[X11ColorUtils" modificationStamp="7091" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.dataprovider{DataProviderManager.java[DataProviderManager" modificationStamp="7085" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.util"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.util{Pair.java[Pair" modificationStamp="7252" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.util{package-info.java[package-info" modificationStamp="7253" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.location"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.location{TmfLongLocation.java[TmfLongLocation" modificationStamp="9956" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.location{ITmfLocation.java[ITmfLocation" modificationStamp="9954" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.location{TmfTimestampLocation.java[TmfTimestampLocation" modificationStamp="9957" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.location{TmfLocation.java[TmfLocation" modificationStamp="9955" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{ITmfStateProvider.java[ITmfStateProvider" modificationStamp="7192" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{AbstractTmfStateProvider.java[AbstractTmfStateProvider" modificationStamp="7190" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{Messages.java[Messages" modificationStamp="7193" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{TmfStateSystemAnalysisModule.java[TmfStateSystemAnalysisModule" modificationStamp="7195" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{ITmfAnalysisModuleWithStateSystems.java[ITmfAnalysisModuleWithStateSystems" modificationStamp="7191" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{TmfAttributePool.java[TmfAttributePool" modificationStamp="7194" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.statesystem{package-info.java[package-info" modificationStamp="7197" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{package-info.java[package-info" modificationStamp="10006" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{TmfTreeXYCompositeDataProvider.java[TmfTreeXYCompositeDataProvider" modificationStamp="10003" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{AbstractTreeCommonXDataProvider.java[AbstractTreeCommonXDataProvider" modificationStamp="9995" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ITmfXYDataProvider.java[ITmfXYDataProvider" modificationStamp="9999" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ITmfTreeXYDataProvider.java[ITmfTreeXYDataProvider" modificationStamp="9998" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ITmfXyEntryModel.java[ITmfXyEntryModel" modificationStamp="10000" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ITmfCommonXAxisModel.java[ITmfCommonXAxisModel" modificationStamp="9997" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{IYModel.java[IYModel" modificationStamp="10002" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{TmfXyTreeDataModel.java[TmfXyTreeDataModel" modificationStamp="10005" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ISeriesModel.java[ISeriesModel" modificationStamp="9996" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{ITmfXyModel.java[ITmfXyModel" modificationStamp="10001" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.xy{TmfXYAxisDescription.java[TmfXYAxisDescription" modificationStamp="10004" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{ICumulativeQueryFilter.java[ICumulativeQueryFilter" modificationStamp="10034" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{TimeQueryFilter.java[TimeQueryFilter" modificationStamp="10039" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{FilterTimeQueryFilter.java[FilterTimeQueryFilter" modificationStamp="10033" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{package-info.java[package-info" modificationStamp="10040" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{IMultipleSelectionQueryFilter.java[IMultipleSelectionQueryFilter" modificationStamp="10035" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{SelectedCounterQueryFilter.java[SelectedCounterQueryFilter" modificationStamp="10036" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{SelectedCpuQueryFilter.java[SelectedCpuQueryFilter" modificationStamp="10037" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.filters{SelectionTimeQueryFilter.java[SelectionTimeQueryFilter" modificationStamp="10038" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{ITmfCustomAttributes.java[ITmfCustomAttributes" modificationStamp="7092" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{ITmfLostEvent.java[ITmfLostEvent" modificationStamp="7096" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{TmfEventType.java[TmfEventType" modificationStamp="7099" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{ITmfEventField.java[ITmfEventField" modificationStamp="7094" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{TmfEvent.java[TmfEvent" modificationStamp="7097" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{TmfLostEvent.java[TmfLostEvent" modificationStamp="7100" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{ITmfEvent.java[ITmfEvent" modificationStamp="7093" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{TmfEventField.java[TmfEventField" modificationStamp="7098" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event{ITmfEventType.java[ITmfEventType" modificationStamp="7095" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{ITableColumnDescriptor.java[ITableColumnDescriptor" modificationStamp="7126" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{ICoreElementResolver.java[ICoreElementResolver" modificationStamp="7122" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{package-info.java[package-info" modificationStamp="7140" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{DataProviderDescriptor.java[DataProviderDescriptor" modificationStamp="7121" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{CommonStatusMessage.java[CommonStatusMessage" modificationStamp="7118" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{SeriesModel.java[SeriesModel" modificationStamp="7132" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{IOutputElement.java[IOutputElement" modificationStamp="7124" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties" modificationStamp="7133" restrictions="0" visibility="0">
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[LinearGradientDirection" modificationStamp="7133" restrictions="1" visibility="0"/>
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[BorderStyle" modificationStamp="7133" restrictions="1" visibility="0"/>
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[TextDirection" modificationStamp="7133" restrictions="1" visibility="0"/>
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[TextAlign" modificationStamp="7133" restrictions="1" visibility="0"/>
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[FontStyle" modificationStamp="7133" restrictions="1" visibility="0"/>
+            <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{StyleProperties.java[StyleProperties[VerticalAlign" modificationStamp="7133" restrictions="1" visibility="0"/>
+        </type>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{TmfCommonXAxisModel.java[TmfCommonXAxisModel" modificationStamp="7134" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{CoreMetadataStrings.java[CoreMetadataStrings" modificationStamp="7120" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{OutputElementStyle.java[OutputElementStyle" modificationStamp="7130" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{TmfXyModel.java[TmfXyModel" modificationStamp="7135" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{ICorePropertyCollection.java[ICorePropertyCollection" modificationStamp="7123" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{AbstractStateSystemAnalysisDataProvider.java[AbstractStateSystemAnalysisDataProvider" modificationStamp="7116" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{ITimeElement.java[ITimeElement" modificationStamp="7127" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{Messages.java[Messages" modificationStamp="7128" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{IOutputStyleProvider.java[IOutputStyleProvider" modificationStamp="7125" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{CoreFilterProperty.java[CoreFilterProperty" modificationStamp="7119" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{OutputStyleModel.java[OutputStyleModel" modificationStamp="7131" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{YModel.java[YModel" modificationStamp="7136" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{AbstractTmfTraceDataProvider.java[AbstractTmfTraceDataProvider" modificationStamp="7117" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model{OutputElement.java[OutputElement" modificationStamp="7129" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{IEventMatchingKey.java[IEventMatchingKey" modificationStamp="10068" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{IMatchProcessingUnit.java[IMatchProcessingUnit" modificationStamp="10069" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{ITmfMatchEventDefinition.java[ITmfMatchEventDefinition" modificationStamp="10071" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{ITmfEventMatching.java[ITmfEventMatching" modificationStamp="10070" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{Messages.java[Messages" modificationStamp="10072" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{TmfEventMatching.java[TmfEventMatching" modificationStamp="10076" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{TmfEventDependency.java[TmfEventDependency" modificationStamp="10074" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{TcpEventKey.java[TcpEventKey" modificationStamp="10073" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.matching{TmfEventMatches.java[TmfEventMatches" modificationStamp="10075" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfCpuAspect.java[TmfCpuAspect" modificationStamp="10089" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{MultiAspect.java[MultiAspect" modificationStamp="10085" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfDeviceAspect.java[TmfDeviceAspect" modificationStamp="10090" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfEventFieldAspect.java[TmfEventFieldAspect" modificationStamp="10091" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{ITmfEventAspect.java[ITmfEventAspect" modificationStamp="10083" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfContentFieldAspect.java[TmfContentFieldAspect" modificationStamp="10088" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{package-info.java[package-info" modificationStamp="10094" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfBaseAspects.java[TmfBaseAspects" modificationStamp="10086" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfStateSystemAspect.java[TmfStateSystemAspect" modificationStamp="10092" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{Messages.java[Messages" modificationStamp="10084" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.aspect{TmfCallsiteAspect.java[TmfCallsiteAspect" modificationStamp="10087" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer.checkpoint"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer.checkpoint{ITmfCheckpoint.java[ITmfCheckpoint" modificationStamp="9965" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer.checkpoint{TmfCheckpoint.java[TmfCheckpoint" modificationStamp="9967" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer.checkpoint{ITmfCheckpointIndex.java[ITmfCheckpointIndex" modificationStamp="9966" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer.checkpoint{TmfCheckpointIndexer.java[TmfCheckpointIndexer" modificationStamp="9968" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.markers"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.markers{TimeReference.java[TimeReference" modificationStamp="7115" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.markers{ITimeReferenceProvider.java[ITimeReferenceProvider" modificationStamp="7114" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.markers{ITimeReference.java[ITimeReference" modificationStamp="7113" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTraceDefinition.java[CustomTraceDefinition" modificationStamp="9980" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTxtTrace.java[CustomTxtTrace" modificationStamp="9983" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlTraceContext.java[CustomXmlTraceContext" modificationStamp="9991" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlInputElement.java[CustomXmlInputElement" modificationStamp="9989" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTxtTraceContext.java[CustomTxtTraceContext" modificationStamp="9984" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlInputAttribute.java[CustomXmlInputAttribute" modificationStamp="9988" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTxtTraceDefinition.java[CustomTxtTraceDefinition" modificationStamp="9985" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomEventType.java[CustomEventType" modificationStamp="9979" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlTrace.java[CustomXmlTrace" modificationStamp="9990" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomEvent.java[CustomEvent" modificationStamp="9977" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTxtEvent.java[CustomTxtEvent" modificationStamp="9981" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlEvent.java[CustomXmlEvent" modificationStamp="9986" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{Messages.java[Messages" modificationStamp="9993" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomEventContent.java[CustomEventContent" modificationStamp="9978" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlEventType.java[CustomXmlEventType" modificationStamp="9987" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomTxtEventType.java[CustomTxtEventType" modificationStamp="9982" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.parsers.custom{CustomXmlTraceDefinition.java[CustomXmlTraceDefinition" modificationStamp="9992" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.collapse"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.event.collapse{ITmfCollapsibleEvent.java[ITmfCollapsibleEvent" modificationStamp="10082" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.exceptions"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.exceptions{TmfAnalysisException.java[TmfAnalysisException" modificationStamp="7105" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.exceptions{TmfTraceException.java[TmfTraceException" modificationStamp="7106" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{IAnalysisModule.java[IAnalysisModule" modificationStamp="7062" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{IAnalysisModuleHelper.java[IAnalysisModuleHelper" modificationStamp="7063" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{IAnalysisModuleSource.java[IAnalysisModuleSource" modificationStamp="7064" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{IAnalysisOutput.java[IAnalysisOutput" modificationStamp="7065" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{IAnalysisParameterProvider.java[IAnalysisParameterProvider" modificationStamp="7066" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{ITmfNewAnalysisModuleListener.java[ITmfNewAnalysisModuleListener" modificationStamp="7067" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{Messages.java[Messages" modificationStamp="7068" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAbstractAnalysisModule.java[TmfAbstractAnalysisModule" modificationStamp="7069" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAbstractAnalysisParamProvider.java[TmfAbstractAnalysisParamProvider" modificationStamp="7070" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAnalysisManager.java[TmfAnalysisManager" modificationStamp="7071" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAnalysisModuleHelperConfigElement.java[TmfAnalysisModuleHelperConfigElement" modificationStamp="7072" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAnalysisModuleOutputs.java[TmfAnalysisModuleOutputs" modificationStamp="7073" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfAnalysisOutputManager.java[TmfAnalysisOutputManager" modificationStamp="7074" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.analysis{TmfNewAnalysisOutputListener.java[TmfNewAnalysisOutputListener" modificationStamp="7075" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{ITmfTreeDataProvider.java[ITmfTreeDataProvider" modificationStamp="10010" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{ITmfTreeDataModel.java[ITmfTreeDataModel" modificationStamp="10009" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{TmfTreeCompositeDataProvider.java[TmfTreeCompositeDataProvider" modificationStamp="10011" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{TmfTreeModel.java[TmfTreeModel" modificationStamp="10013" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{package-info.java[package-info" modificationStamp="10014" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{TmfTreeDataModel.java[TmfTreeDataModel" modificationStamp="10012" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{AbstractTreeDataProvider.java[AbstractTreeDataProvider" modificationStamp="10007" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.tree{ITmfSelectionTreeDataModel.java[ITmfSelectionTreeDataModel" modificationStamp="10008" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{TimestampTransformFactory.java[TimestampTransformFactory" modificationStamp="7217" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{SynchronizationManager.java[SynchronizationManager" modificationStamp="7216" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{Messages.java[Messages" modificationStamp="7212" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{SynchronizationAlgorithmFactory.java[SynchronizationAlgorithmFactory" modificationStamp="7214" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{ITmfTimestampTransform.java[ITmfTimestampTransform" modificationStamp="7211" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{SynchronizationAlgorithm.java[SynchronizationAlgorithm" modificationStamp="7213" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.synchronization{SynchronizationBackend.java[SynchronizationBackend" modificationStamp="7215" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.resources"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.resources{ITmfMarker.java[ITmfMarker" modificationStamp="7158" restrictions="1" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.request"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.request{ITmfEventRequest.java[ITmfEventRequest" modificationStamp="7156" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.request{TmfEventRequest.java[TmfEventRequest" modificationStamp="7157" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphArrow.java[ITimeGraphArrow" modificationStamp="10020" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{IPropertyCollection.java[IPropertyCollection" modificationStamp="10019" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{IFilterProperty.java[IFilterProperty" modificationStamp="10017" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TimeGraphState.java[TimeGraphState" modificationStamp="10030" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{IMetadataStrings.java[IMetadataStrings" modificationStamp="10018" restrictions="1" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphState.java[ITimeGraphState" modificationStamp="10024" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TimeGraphRowModel.java[TimeGraphRowModel" modificationStamp="10029" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TimeGraphModel.java[TimeGraphModel" modificationStamp="10028" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphDataProvider.java[ITimeGraphDataProvider" modificationStamp="10021" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TimeGraphArrow.java[TimeGraphArrow" modificationStamp="10026" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphRowModel.java[ITimeGraphRowModel" modificationStamp="10023" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{package-info.java[package-info" modificationStamp="10032" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TmfTimeGraphCompositeDataProvider.java[TmfTimeGraphCompositeDataProvider" modificationStamp="10031" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{AbstractTimeGraphDataProvider.java[AbstractTimeGraphDataProvider" modificationStamp="10015" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphEntryModel.java[ITimeGraphEntryModel" modificationStamp="10022" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{TimeGraphEntryModel.java[TimeGraphEntryModel" modificationStamp="10027" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{IElementResolver.java[IElementResolver" modificationStamp="10016" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.model.timegraph{ITimeGraphStateFilter.java[ITimeGraphStateFilter" modificationStamp="10025" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{ISymbolProvider.java[ISymbolProvider" modificationStamp="7205" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{SymbolProviderManager.java[SymbolProviderManager" modificationStamp="7207" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{DefaultSymbolProvider.java[DefaultSymbolProvider" modificationStamp="7203" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{SymbolProviderUtils.java[SymbolProviderUtils" modificationStamp="7208" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{IMappingFile.java[IMappingFile" modificationStamp="7204" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{ISymbolProviderFactory.java[ISymbolProviderFactory" modificationStamp="7206" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{TmfResolvedSymbol.java[TmfResolvedSymbol" modificationStamp="7209" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.symbols{package-info.java[package-info" modificationStamp="7210" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment{SegmentStartTimeAspect.java[SegmentStartTimeAspect" modificationStamp="7165" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment{package-info.java[package-info" modificationStamp="7166" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment{ISegmentAspect.java[ISegmentAspect" modificationStamp="7162" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment{SegmentEndTimeAspect.java[SegmentEndTimeAspect" modificationStamp="7164" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.segment{SegmentDurationAspect.java[SegmentDurationAspect" modificationStamp="7163" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{ITmfPersistentlyIndexable.java[ITmfPersistentlyIndexable" modificationStamp="9958" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{TmfFlatArrayTraceIndexer.java[TmfFlatArrayTraceIndexer" modificationStamp="9963" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{TmfBTreeTraceIndexer.java[TmfBTreeTraceIndexer" modificationStamp="9961" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{TmfBTreeTraceIndex.java[TmfBTreeTraceIndex" modificationStamp="9960" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{TmfFlatArrayTraceIndex.java[TmfFlatArrayTraceIndex" modificationStamp="9962" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace.indexer{ITmfTraceIndexer.java[ITmfTraceIndexer" modificationStamp="9959" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfTraceUtils.java[TmfTraceUtils" modificationStamp="7241" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfEventTypeCollectionHelper.java[TmfEventTypeCollectionHelper" modificationStamp="7236" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfTraceAdapterManager.java[TmfTraceAdapterManager" modificationStamp="7238" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ICyclesConverter.java[ICyclesConverter" modificationStamp="7227" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfTraceKnownSize.java[ITmfTraceKnownSize" modificationStamp="7232" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITraceContextSignalHandler.java[ITraceContextSignalHandler" modificationStamp="7234" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfTrace.java[ITmfTrace" modificationStamp="7230" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfEventParser.java[ITmfEventParser" modificationStamp="7229" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfTraceContext.java[TmfTraceContext" modificationStamp="7239" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfContext.java[TmfContext" modificationStamp="7235" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfTrace.java[TmfTrace" modificationStamp="7237" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfTraceWithPreDefinedEvents.java[ITmfTraceWithPreDefinedEvents" modificationStamp="7233" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfTraceCompleteness.java[ITmfTraceCompleteness" modificationStamp="7231" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TraceValidationStatus.java[TraceValidationStatus" modificationStamp="7242" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{AbstractTmfTraceAdapterFactory.java[AbstractTmfTraceAdapterFactory" modificationStamp="7226" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{TmfTraceManager.java[TmfTraceManager" modificationStamp="7240" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.trace{ITmfContext.java[ITmfContext" modificationStamp="7228" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.xml"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.xml{TmfFilterContentHandler.java[TmfFilterContentHandler" modificationStamp="10050" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.xml{TmfFilterXMLWriter.java[TmfFilterXMLWriter" modificationStamp="10052" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.filter.xml{TmfFilterXMLParser.java[TmfFilterXMLParser" modificationStamp="10051" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{ITmfPropertiesProvider.java[ITmfPropertiesProvider" modificationStamp="9971" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{TmfTraceCoreUtils.java[TmfTraceCoreUtils" modificationStamp="9972" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{TmfTraceType.java[TmfTraceType" modificationStamp="9974" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{TraceTypePreferences.java[TraceTypePreferences" modificationStamp="9976" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{TraceTypeHelper.java[TraceTypeHelper" modificationStamp="9975" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.tmf.core/src&lt;org.eclipse.tracecompass.tmf.core.project.model{TmfTraceImportException.java[TmfTraceImportException" modificationStamp="9973" restrictions="0" visibility="0"/>
+    </package>
+</component>

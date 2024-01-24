@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.tracecompass.lttng2.control"
+      label="%featureName"
+      version="8.3.0.202303040715"
+      provider-name="%featureProvider">
+
+   <description url="http://www.example.com/description">
+      %description
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.tracecompass.tmf.ctf"
+         version="8.3.0.202303040715"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.tracecompass.ctf.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.lttng2.control.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.ctf.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.remote.core" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.remote.ui" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.tracecompass.tmf.ui" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.remote.core" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.remote.ui" version="2.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava"/>
+      <import plugin="org.eclipse.core.expressions"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.core"
+         download-size="104"
+         install-size="212"
+         version="1.2.5.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.lttng2.control.ui"
+         download-size="450"
+         install-size="1122"
+         version="1.2.14.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.doc.user"
+         download-size="11652"
+         install-size="12839"
+         version="8.3.0.202303040715"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.core"
+         download-size="30"
+         install-size="55"
+         version="2.0.5.202303040715"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.tracecompass.tmf.remote.ui"
+         download-size="119"
+         install-size="292"
+         version="1.0.9.202303040715"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.tracecompass.incubator.analysis.core" modificationStamp="3779" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff{DifferentialWeightedTree.java[DifferentialWeightedTree" modificationStamp="12305" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff{DifferentialWeightedTreeProvider.java[DifferentialWeightedTreeProvider" modificationStamp="12306" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff{DifferentialWeightedTreeSet.java[DifferentialWeightedTreeSet" modificationStamp="12307" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree.diff{package-info.java[package-info" modificationStamp="12308" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{AnalysisPidAspect.java[AnalysisPidAspect" modificationStamp="8137" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{AnalysisProcessNameAspect.java[AnalysisProcessNameAspect" modificationStamp="8138" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{AnalysisThreadNameAspect.java[AnalysisThreadNameAspect" modificationStamp="8139" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{AnalysisTidAspect.java[AnalysisTidAspect" modificationStamp="8140" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{ProcessNameAspect.java[ProcessNameAspect" modificationStamp="8141" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{ThreadNameAspect.java[ThreadNameAspect" modificationStamp="8142" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.aspects{package-info.java[package-info" modificationStamp="8143" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.model"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.model{IHostModel.java[IHostModel" modificationStamp="8151" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.model{ModelManager.java[ModelManager" modificationStamp="8152" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.model{package-info.java[package-info" modificationStamp="8153" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{AggregatedCallSite.java[AggregatedCallSite" modificationStamp="8144" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{ICallStackSymbol.java[ICallStackSymbol" modificationStamp="8145" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{ICpuTimeProvider.java[ICpuTimeProvider" modificationStamp="8146" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{ISamplingDataProvider.java[ISamplingDataProvider" modificationStamp="8147" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{IThreadOnCpuProvider.java[IThreadOnCpuProvider" modificationStamp="8148" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{ProcessStatusInterval.java[ProcessStatusInterval" modificationStamp="8149" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.concepts{package-info.java[package-info" modificationStamp="8150" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{AllGroupDescriptor.java[AllGroupDescriptor" modificationStamp="8155" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{DepthGroupDescriptor.java[DepthGroupDescriptor" modificationStamp="8156" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{IDataPalette.java[IDataPalette" modificationStamp="8157" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{ITree.java[ITree" modificationStamp="8158" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{IWeightedTreeGroupDescriptor.java[IWeightedTreeGroupDescriptor" modificationStamp="8159" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{IWeightedTreeProvider.java[IWeightedTreeProvider" modificationStamp="8160" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{IWeightedTreeSet.java[IWeightedTreeSet" modificationStamp="8161" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{WeightedTree.java[WeightedTree" modificationStamp="8162" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{WeightedTreeGroupBy.java[WeightedTreeGroupBy" modificationStamp="8163" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{WeightedTreeSet.java[WeightedTreeSet" modificationStamp="8164" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{WeightedTreeUtils.java[WeightedTreeUtils" modificationStamp="8165" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.tracecompass.incubator.analysis.core/src&lt;org.eclipse.tracecompass.incubator.analysis.core.weighted.tree{package-info.java[package-info" modificationStamp="8167" restrictions="0" visibility="0"/>
+    </package>
+</component>

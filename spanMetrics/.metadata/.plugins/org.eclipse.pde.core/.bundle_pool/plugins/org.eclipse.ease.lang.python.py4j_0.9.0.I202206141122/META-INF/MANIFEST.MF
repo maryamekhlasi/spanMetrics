@@ -1,0 +1,102 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 15
+Bundle-ManifestVersion: 2
+Bundle-Name: EASE Py4J Interpreter (Incubation)
+Bundle-SymbolicName: org.eclipse.ease.lang.python.py4j;singleton:=true
+Bundle-Version: 0.9.0.I202206141122
+Bundle-Vendor: Eclipse.org
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.ui;bundle-version="[3.7.0,4.0.0)",org.eclips
+ e.core.runtime;bundle-version="[3.7.0,4.0.0)",org.eclipse.core.variable
+ s;bundle-version="[3.2.800,4.0.0)",org.eclipse.debug.ui;bundle-version=
+ "[3.7.102,4.0.0)",py4j-java;bundle-version="[0.10.4,0.11.0)",py4j-pytho
+ n;bundle-version="[0.10.4,0.11.0)",org.eclipse.ease,org.eclipse.ease.la
+ ng.python,org.eclipse.core.resources;bundle-version="[3.7.101,4.0.0)",o
+ rg.eclipse.debug.core;bundle-version="[3.7.1,4.0.0)",org.eclipse.help,o
+ rg.eclipse.ease.classloader
+Export-Package: org.eclipse.ease.lang.python.py4j.internal;x-internal:=t
+ rue,org.eclipse.ease.lang.python.py4j.internal.ui;x-internal:=true
+Bundle-Activator: org.eclipse.ease.lang.python.py4j.internal.Activator
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Eclipse-BundleShape: dir
+Automatic-Module-Name: org.eclipse.ease.lang.python.py4j
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python.py4j/
+ pom.properties
+SHA-256-Digest: PALVdR/BPMtcrJkQ/aeIxpo+7am5bW7D2lt0IyGEfn0=
+
+Name: plugin.xml
+SHA-256-Digest: kFM750C9kCAB9q0FxuaGimvMtlUEDD9CiBmOJt/ZZZA=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4JBootstrap.class
+SHA-256-Digest: KzWc6BPfMEC8kopMd6zGPGuIn61RDv17ziu97y3acYs=
+
+Name: help/html/py4j_engine.html
+SHA-256-Digest: PsoHUuap6a/iLkuP4X8h5MmaZZtbVr3CtOqzPmIKQPM=
+
+Name: pysrc/ease_py4j_main.py
+SHA-256-Digest: 8kNOUTBdq3NY+vO5rwUz31eJnt+jHjpf9RQbANY6fiY=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4JScriptEnginePrefCon
+ stants.class
+SHA-256-Digest: XLeBc4anoGW4gvSGcfYEAkiHsznJbT/l3mDpMPjzock=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/IInteractiveReturn.clas
+ s
+SHA-256-Digest: cpC8zE8y72XGdhjla+blFFbrEkj6QWlCaQ7DMLzsEQU=
+
+Name: pysrc/py4jdb.py
+SHA-256-Digest: mlvxPMBCUUQ4VpdF0z0JtcxOVxawocBfhkDzTS6+Zgk=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage$1
+ $1.class
+SHA-256-Digest: HtngOzcMh8Ed1ov00ee/dFmRcsoiJWt0+UY9iwbtqjU=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine.class
+SHA-256-Digest: g1I0J5LemhKy9Zham2ZWQfiNwkuSPTeKA754obyS2YM=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jDebugger.class
+SHA-256-Digest: QH4GJgCPfswuGIAK47uHL8VsylSzWdqVO3UYV9BQ8aA=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/IPythonSideEngine.class
+SHA-256-Digest: PRiNAlOR2EN3EyLr6y6Ag4hJrJdIE7UzRnnpu6TwfYc=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage$1
+ .class
+SHA-256-Digest: 4qE8F+1tLki7RNhlmiBR9BziNX8uFnebUcxbtzs0l3o=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Activator.class
+SHA-256-Digest: pBMyfPR0Buyz7cpR+CIRwkH82yQqQgBe0UgVgD0B2MA=
+
+Name: META-INF/maven/org.eclipse.ease/org.eclipse.ease.lang.python.py4j/
+ pom.xml
+SHA-256-Digest: H/tnwVLzp2z03xkPWFqX+RAKAJ7HsPmYIlKpDahDU7A=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jDebuggerEngine.clas
+ s
+SHA-256-Digest: v/cwdq4pS7MDUZ/0JT9+JujTBb4FrI1xMRYqdJWqoMk=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/PreferenceInitialize
+ r.class
+SHA-256-Digest: 7r8Y/ttFmk+hcBHyxfV313qKB6wJHzA5jyAyQQVVNm0=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine$Stream
+ Gobbler.class
+SHA-256-Digest: +HN0LlyNGS4uSr7b6IVCnw4mJY2NYwr2t8GPp31J0OU=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ICodeTraceFilter.class
+SHA-256-Digest: 1PZ+BuP/IzIlehb/gmOC4o43z8u2SqZFVhxmQLBgWN4=
+
+Name: help/engines.xml
+SHA-256-Digest: tzLDR2WXGmomB7WDs6b40sHex9ardKqLmREcFsUEgBs=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/ui/Py4JPreferencePage.c
+ lass
+SHA-256-Digest: HvdpboI/WUyha4JRmz0O1b5Rgtyc7lebI6ObViBKNMY=
+
+Name: org/eclipse/ease/lang/python/py4j/internal/Py4jScriptEngine$1.clas
+ s
+SHA-256-Digest: mK0+cqa5GaQ+HSyXStMTelUZeXh9ZBivkv5oaRRSaHo=
+
