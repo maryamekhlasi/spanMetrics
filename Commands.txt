@@ -1,0 +1,295 @@
+sudo chown -R $USER: $HOME
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/jfreechartwithspan"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a                sudo lttng enable-event -c kernelchannel -k --syscall -a
+sudo lttng enable-event -c userchannel --python -a		sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+sudo lttng create snapshot1 --snapshot --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/snapshot/c-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng snapshot record
+sudo lttng stop
+
+
+
+sudo add-apt-repository ppa:longsleep/golang-backports
+sudo apt install golang-go
+
+
+sudo chown -R $USER: $HOME
+
+
+lttng enable-event kernelchannel -k sched_switch,sched_waking,sched_pi_setprio,sched_process_fork,sched_process_exit,sched_process_free,sched_wakeup,\
+irq_softirq_entry,irq_softirq_raise,irq_softirq_exit,irq_handler_entry,irq_handler_exit,\
+lttng_statedump_process_state,lttng_statedump_start,lttng_statedump_end,lttng_statedump_network_interface,lttng_statedump_block_device,\
+block_rq_complete,block_rq_insert,block_rq_issue,\
+block_bio_frontmerge,sched_migrate,sched_migrate_task,power_cpu_frequency,\
+net_dev_queue,netif_receive_skb,net_if_receive_skb,\
+timer_hrtimer_start,timer_hrtimer_cancel,timer_hrtimer_expire_entry,timer_hrtimer_expire_exit
+
+
+
+
+
+
+
+sudo lttng create standardmode --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/standardmode"
+
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k sched_switch,sched_waking,sched_pi_setprio,sched_process_fork,sched_process_exit,sched_process_free,sched_wakeup,\
+irq_softirq_entry,irq_softirq_raise,irq_softirq_exit,irq_handler_entry,irq_handler_exit,\
+lttng_statedump_process_state,lttng_statedump_start,lttng_statedump_end,lttng_statedump_network_interface,lttng_statedump_block_device,\
+block_rq_complete,block_rq_insert,block_rq_issue,\
+block_bio_frontmerge,sched_migrate,sched_migrate_task,power_cpu_frequency,\
+net_dev_queue,netif_receive_skb,net_if_receive_skb,\
+timer_hrtimer_start,timer_hrtimer_cancel,timer_hrtimer_expire_entry,timer_hrtimer_expire_exit
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/c-2-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+ab -n 10000 -c 10 -g out.txt http://0.0.0.0:8080/dispatch?customer=123
+
+
+
+
+
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/c-2-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k --syscall -a
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/c-2-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng start
+
+
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/c-2-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+lttng enable-event -k sched_*,net_dev_queue,netif_receive_skb,net_if_receive_skb 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+sudo lttng create hotrod --output="/home/maryam/Poly/Dorsal/traces/dataset/hotrod/c-2-2"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k sched_*,net_dev_queue,netif_receive_skb,net_if_receive_skb,syscall_*,lttng_statedump*
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+sudo lttng create jfreechartwithspan --output="/home/maryam/Poly/Dorsal/traces/dataset/tidb/tidb-bad-commit-compare"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+sudo lttng create cpucontention2 --output="/home/maryam/Poly/Dorsal/traces/dataset/article/cpucontention3"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+sudo lttng create DistributedDeadlock --output="/home/maryam/Poly/Dorsal/traces/dataset/DistributedDeadlock"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+sudo lttng create cpucontention2 --output="/home/maryam/Poly/Dorsal/traces/dataset/article/cpucontention4"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+sudo lttng create cassendra --output="/home/maryam/Poly/Dorsal/traces/dataset/article/cassendra"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+
+sudo lttng create DistributedDeadlock --output="/home/maryam/Poly/Dorsal/traces/dataset/article/DistributedDeadlock"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+sudo lttng stop
+
+
+
+
+sudo lttng create cassendra --output="/home/maryam/Poly/Dorsal/traces/dataset/article/otl"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+lttng add-trigger --name=sched-switch-notif3                  
+		   --condition=event-rule-matches                   
+		   --type=user --name=jaeger_ust:start_span                  
+		   --filter='op_name == "HTTP GET /dispatch"' 
+		   --capture=op_name                   
+		   --action=notify
+		   
+		   
+lttng create my-session
+lttng enable-event --userspace --all
+lttng start
+
+
+./notif-app sched-switch-notif3
+
+			
+
+
+
+sudo lttng create cpp2 --output="/home/maryam/Poly/Dorsal/traces/dataset/cpp/lttng-opentracing-c"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng start
+sudo lttng stop
+
+
+
+sudo lttng create cpuload --output="/home/maryam/Poly/Dorsal/traces/dataset/article/secondReview/cpuload"
+sudo lttng enable-channel --userspace userchannel
+sudo lttng enable-channel --kernel kernelchannel
+sudo lttng enable-event -c kernelchannel -k -a 
+sudo lttng enable-event -c userchannel --userspace -a
+sudo lttng add-context --userspace -t vtid -t vpid
+sudo lttng add-context --kernel -t tid -t pid
+sudo lttng start
+
+
+
+
+lttng create my-session --output="/home/maryam/Poly/Dorsal/traces/dataset/article/lastArticle/notify"  
+lttng enable-event --userspace --all
+
+lttng enable-event -c kernelchannel -k -a 
+
+lttng start
+
+
+
+lttng create sessionName2 --output="/home/maryam/Poly/Dorsal/traces/dataset/article/lastArticle/session2"
+lttng add-trigger --name=sched-switch-notif3 \
+    --condition=event-rule-matches \
+    --type=user --name=jaeger_ust:start_span \
+    --filter='op_name == "HTTP GET /dispatch"' \
+    --capture=op_name --action=start-session sessionName3
+    
+    
+ lttng add-trigger --name=sched-switch-notif3 \
+    --condition=event-rule-matches \
+    --type=user --name=jaeger_ust:end_span \
+    --filter='op_name == "HTTP GET /dispatch"' \
+    --capture=op_name --action=stop-session sessionName3
+ lttng enable-channel --userspace userchannel
+ lttng enable-event -c userchannel --userspace -a
+ lttng add-context --userspace -t vtid -t vpid
+
+
+
+ lttng create sessionName3 --output="/home/maryam/Poly/Dorsal/traces/dataset/article/lastArticle/session3"
+ lttng enable-channel --kernel kernelchannel
+ lttng enable-event -c kernelchannel -k -a 
+ lttng add-context --kernel -t tid -t pid
+
+
+
+ lttng create sessionName1 --output="/home/maryam/Poly/Dorsal/traces/dataset/article/lastArticle/session1"
+ lttng enable-channel --userspace userchannel
+ lttng enable-channel --kernel kernelchannel
+ lttng enable-event -c kernelchannel -k -a 
+ lttng enable-event -c userchannel --userspace -a
+ lttng add-context --userspace -t vtid -t vpid
+ lttng add-context --kernel -t tid -t pid
+ lttng start
+
