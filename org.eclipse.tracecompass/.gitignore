@@ -1,0 +1,8 @@
+# LC_COLLATE=C sort
+*/.settings/org.sonar.ide.eclipse.core.prefs
+.DS_Store
+.polyglot.build.properties
+.tycho-consumer-pom.xml
+bin/
+target/
+workspace/

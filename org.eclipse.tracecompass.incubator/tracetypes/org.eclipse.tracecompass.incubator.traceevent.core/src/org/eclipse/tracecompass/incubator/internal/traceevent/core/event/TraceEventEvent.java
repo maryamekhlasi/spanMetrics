@@ -1,0 +1,86 @@
+/*******************************************************************************
+ * Copyright (c) 2017 Ericsson
+ *
+ * All rights reserved. This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License 2.0 which
+ * accompanies this distribution, and is available at
+ * https://www.eclipse.org/legal/epl-2.0/
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *******************************************************************************/
+
+package org.eclipse.tracecompass.incubator.internal.traceevent.core.event;
+
+import java.util.logging.Level;
+
+import org.eclipse.jdt.annotation.NonNull;
+import org.eclipse.jdt.annotation.Nullable;
+import org.eclipse.tracecompass.tmf.core.event.ITmfEventField;
+import org.eclipse.tracecompass.tmf.core.event.TmfEvent;
+import org.eclipse.tracecompass.tmf.core.event.lookup.ITmfCallsite;
+import org.eclipse.tracecompass.tmf.core.event.lookup.ITmfSourceLookup;
+import org.eclipse.tracecompass.tmf.core.trace.ITmfTrace;
+
+/**
+ * Trace compass log event
+ *
+ * @author Matthew Khouzam
+ */
+public class TraceEventEvent extends TmfEvent implements ITmfSourceLookup {
+
+    private final @Nullable ITmfCallsite fCallsite;
+    private final Level fLogLevel;
+    private final @NonNull String fName;
+    private final TraceEventField fField;
+
+    /**
+     * Constructor for simple traceEventEvent
+     *
+     * @param trace
+     *            the trace
+     * @param rank
+     *            the rank
+     * @param field
+     *            the event field, contains all the needed data
+     */
+    public TraceEventEvent(ITmfTrace trace, long rank, TraceEventField field) {
+        super(trace, rank, trace.createTimestamp(field.getTs()), TraceEventLookup.get(field.getPhase()), field.getContent());
+        fField = field;
+        fName = field.getName();
+        fLogLevel = Level.INFO;
+        fCallsite = null;
+    }
+
+    @Override
+    public ITmfEventField getContent() {
+        return fField.getContent();
+    }
+
+    @Override
+    public @NonNull String getName() {
+        return fName;
+    }
+
+    @Override
+    public @Nullable ITmfCallsite getCallsite() {
+        return fCallsite;
+    }
+
+    /**
+     * Get the loglevel of the event
+     *
+     * @return the log level
+     */
+    public Level getLevel() {
+        return fLogLevel;
+    }
+
+    /**
+     * Get the fields of the event
+     *
+     * @return the fields of the event
+     */
+    public TraceEventField getField() {
+        return fField;
+    }
+}

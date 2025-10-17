@@ -1,0 +1,7 @@
+# LC_COLLATE=C sort
+*/.settings/org.sonar.ide.eclipse.core.prefs
+.DS_Store
+.pydevproject
+bin/
+target/
+workspace/
